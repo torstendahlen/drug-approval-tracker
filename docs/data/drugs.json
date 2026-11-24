@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-11-24T19:44:55Z",
+  "counts": {
+    "total": 4,
+    "ema": 3,
+    "tlv": 1,
+    "nt_radet": 1
+  },
+  "drugs": [
+    {
+      "id": "sub-teclistamab",
+      "drug_name": "Tecvayli",
+      "active_substance": "teclistamab",
+      "atc_code": "L01FX24",
+      "therapeutic_area": "Antineoplastic & immunomodulating",
+      "latest_date": "2026-11-18",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA",
+        "NT_RADET"
+      ],
+      "events": [
+        {
+          "source": "NT_RADET",
+          "date": "2026-11-18",
+          "update_type": "new_indication",
+          "status": "Kan användas",
+          "title": "Tecvayli (teclistamab) – Kan användas",
+          "indication": "Multipelt myelom, fjärde linjen eller senare.",
+          "summary": "NT-rådet rekommenderar regionerna att använda Tecvayli vid recidiverande och refraktärt multipelt myelom.",
+          "url": "https://samverkanlakemedel.se/nt-radets-rekommendationer/"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-15",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Tecvayli (teclistamab) – Extension of indication",
+          "indication": "Monotherapy for relapsed and refractory multiple myeloma after at least three prior therapies.",
+          "summary": "EMA CHMP positive opinion / authorised indication update.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tecvayli"
+        }
+      ]
+    },
+    {
+      "id": "sub-semaglutide",
+      "drug_name": "Wegovy",
+      "active_substance": "semaglutide",
+      "atc_code": "A10BJ06",
+      "therapeutic_area": "Alimentary tract & metabolism",
+      "latest_date": "2026-11-12",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "TLV"
+      ],
+      "events": [
+        {
+          "source": "TLV",
+          "date": "2026-11-12",
+          "update_type": "new_indication",
+          "status": "Begränsad subvention",
+          "title": "Wegovy (semaglutide) – Utvidgad subvention",
+          "indication": "Kardiovaskulär riskreduktion hos vuxna med etablerad hjärt-kärlsjukdom och BMI >= 27.",
+          "summary": "TLV beslutar om begränsad subvention för ny indikation.",
+          "url": "https://www.tlv.se/beslut/beslut-lakemedel.html"
+        }
+      ]
+    },
+    {
+      "id": "sub-donanemab",
+      "drug_name": "Kisunla",
+      "active_substance": "donanemab",
+      "atc_code": "N06DX",
+      "therapeutic_area": "Nervous system",
+      "latest_date": "2026-11-05",
+      "latest_update_type": "new_drug",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-05",
+          "update_type": "new_drug",
+          "status": "Positive opinion",
+          "title": "Kisunla (donanemab) – Positive opinion",
+          "indication": "Early symptomatic Alzheimer disease in adults who are apolipoprotein E ε4 heterozygotes or non-carriers.",
+          "summary": "CHMP recommended marketing authorisation.",
+          "url": "https://www.ema.europa.eu/en/medicines"
+        }
+      ]
+    },
+    {
+      "id": "sub-elranatamab",
+      "drug_name": "Elrexfio",
+      "active_substance": "elranatamab",
+      "atc_code": "L01FX27",
+      "therapeutic_area": "Antineoplastic & immunomodulating",
+      "latest_date": "2026-09-20",
+      "latest_update_type": "new_drug",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-09-20",
+          "update_type": "new_drug",
+          "status": "Authorised",
+          "title": "Elrexfio (elranatamab) – Authorised",
+          "indication": "Treatment of adult patients with relapsed and refractory multiple myeloma.",
+          "summary": "EMA initial marketing authorisation.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/elrexfio"
+        }
+      ]
+    }
+  ]
+}
