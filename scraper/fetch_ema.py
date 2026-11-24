@@ -1,4 +1,4 @@
-"""Fetch recent drug approvals and indication extensions from EMA."""
+"""Fetch drug approvals, full archive, and indication extensions from EMA."""
 
 from __future__ import annotations
 
@@ -6,15 +6,22 @@ import logging
 import re
 from datetime import datetime, timezone
 from typing import Any
+from urllib.parse import urljoin
 
 import feedparser
 import requests
 
 logger = logging.getLogger(__name__)
 
+EMA_BASE = "https://www.ema.europa.eu"
+
 EMA_MEDICINES_JSON_URLS = [
     "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines_json-report_en.json",
     "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.json",
+]
+
+EMA_POST_AUTH_JSON_URLS = [
+    "https://www.ema.europa.eu/en/documents/report/medicines-output-post_authorisation_json-report_en.json",
 ]
 
 EMA_RSS_URLS = [
@@ -22,7 +29,7 @@ EMA_RSS_URLS = [
     "https://www.ema.europa.eu/en/medicines/rss.xml",
 ]
 
-USER_AGENT = "DrugApprovalTracker/1.0 (https://github.com/drug-approval-tracker)"
+USER_AGENT = "DrugApprovalTracker/1.1 (https://github.com/torstendahlen/drug-approval-tracker)"
 
 
 def _parse_date(raw: str | None) -> str:
@@ -42,9 +49,16 @@ def _parse_date(raw: str | None) -> str:
         except ValueError:
             continue
     m = re.match(r"(\d{4}-\d{2}-\d{2})", raw)
-    if m:
-        return m.group(1)
-    return ""
+    return m.group(1) if m else ""
+
+
+def _abs_ema_url(raw_url: str | None) -> str:
+    u = (raw_url or "").strip()
+    if not u:
+        return f"{EMA_BASE}/en/medicines"
+    if u.startswith("http://") or u.startswith("https://"):
+        return u
+    return urljoin(EMA_BASE, u)
 
 
 def _classify_ema_update(text: str, is_initial_ma: bool = False) -> str:
@@ -75,20 +89,23 @@ def _classify_ema_update(text: str, is_initial_ma: bool = False) -> str:
     return "other"
 
 
-def fetch_ema_json(limit: int = 250) -> list[dict[str, Any]]:
-    """Fetch EMA's structured human medicines JSON report."""
+def _fetch_json_first(urls: list[str]) -> Any:
     headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
-    data = None
-    for url in EMA_MEDICINES_JSON_URLS:
+    for url in urls:
         try:
-            resp = requests.get(url, headers=headers, timeout=45)
+            resp = requests.get(url, headers=headers, timeout=60)
             if resp.status_code == 200:
-                data = resp.json()
                 logger.info("Fetched EMA JSON from %s", url)
-                break
+                return resp.json()
+            logger.warning("EMA JSON %s returned HTTP %s", url, resp.status_code)
         except Exception as exc:
             logger.warning("Failed EMA JSON %s: %s", url, exc)
+    return None
 
+
+def fetch_ema_json(limit: int = 3000) -> list[dict[str, Any]]:
+    """Fetch EMA's full structured human medicines JSON archive."""
+    data = _fetch_json_first(EMA_MEDICINES_JSON_URLS)
     if not data:
         return []
 
@@ -136,9 +153,7 @@ def fetch_ema_json(limit: int = 250) -> list[dict[str, Any]]:
         if not name or not date_str:
             continue
 
-        url = str(item.get("URL") or item.get("url") or "").strip()
-        if url and not url.startswith("http"):
-            url = f"https://www.ema.europa.eu{url}"
+        url = _abs_ema_url(str(item.get("URL") or item.get("url") or ""))
 
         update_type = "new_drug"
         if ma_date and rev_date and rev_date > ma_date:
@@ -157,7 +172,7 @@ def fetch_ema_json(limit: int = 250) -> list[dict[str, Any]]:
                 "title": f"{name} ({substance}) – {status or 'Authorised'}",
                 "indication": indication[:600],
                 "summary": f"EMA status: {status or 'Authorised'}. MA date: {ma_date or date_str}.",
-                "url": url or "https://www.ema.europa.eu/en/medicines",
+                "url": url,
             }
         )
 
@@ -165,7 +180,56 @@ def fetch_ema_json(limit: int = 250) -> list[dict[str, Any]]:
     return events[:limit]
 
 
-def fetch_ema_rss(limit: int = 80) -> list[dict[str, Any]]:
+def fetch_ema_post_authorisation(limit: int = 1000) -> list[dict[str, Any]]:
+    """Fetch EMA post-authorisation procedures (e.g. extension of indications)."""
+    data = _fetch_json_first(EMA_POST_AUTH_JSON_URLS)
+    if not data:
+        return []
+
+    records = data if isinstance(data, list) else data.get("data", [])
+    events: list[dict[str, Any]] = []
+
+    for item in records:
+        if not isinstance(item, dict):
+            continue
+        name = str(item.get("Medicine name") or item.get("Name of medicine") or "").strip()
+        substance = str(item.get("Active substance") or "").strip()
+        proc_type = str(item.get("Type of procedure") or item.get("Procedure type") or "").strip()
+        scope = str(item.get("Scope") or item.get("Summary of opinion") or "").strip()
+        opinion = str(item.get("Opinion") or item.get("Outcome") or "Post-authorisation").strip()
+        date_str = _parse_date(
+            str(item.get("Date of opinion") or item.get("Revision date") or item.get("First published") or "")
+        )
+        if not name or not date_str:
+            continue
+
+        combined = f"{proc_type} {scope}"
+        if "indication" not in combined.lower() and "extension" not in combined.lower():
+            continue
+
+        url = _abs_ema_url(str(item.get("URL") or item.get("url") or ""))
+        events.append(
+            {
+                "source": "EMA",
+                "drug_name": name,
+                "active_substance": substance,
+                "atc_code": str(item.get("ATC code") or "").strip(),
+                "therapeutic_area": str(item.get("Therapeutic area") or "").strip(),
+                "date": date_str,
+                "update_type": "new_indication",
+                "status": opinion,
+                "title": f"{name} – {proc_type or 'Extension of indication'}",
+                "indication": scope[:600],
+                "summary": f"EMA post-authorisation ({opinion}): {scope[:350]}",
+                "url": url,
+            }
+        )
+
+    events.sort(key=lambda e: e["date"], reverse=True)
+    return events[:limit]
+
+
+def fetch_ema_rss(limit: int = 100) -> list[dict[str, Any]]:
     """Fetch EMA RSS feeds for CHMP highlights, new approvals, and indication extensions."""
     events: list[dict[str, Any]] = []
     seen_urls: set[str] = set()
@@ -177,7 +241,7 @@ def fetch_ema_rss(limit: int = 80) -> list[dict[str, Any]]:
                 continue
             parsed = feedparser.parse(resp.content)
             for entry in parsed.entries[:limit]:
-                link = getattr(entry, "link", "")
+                link = _abs_ema_url(getattr(entry, "link", ""))
                 if not link or link in seen_urls:
                     continue
                 seen_urls.add(link)
@@ -221,9 +285,7 @@ def fetch_ema_rss(limit: int = 80) -> list[dict[str, Any]]:
 
 
 def fetch_ema() -> list[dict[str, Any]]:
-    """Combine EMA JSON report and RSS highlights."""
-    json_events = fetch_ema_json()
-    rss_events = fetch_ema_rss()
-    combined = json_events + rss_events
+    """Combine EMA JSON archive, post-authorisation indication extensions, and RSS."""
+    combined = fetch_ema_json() + fetch_ema_post_authorisation() + fetch_ema_rss()
     combined.sort(key=lambda e: e["date"], reverse=True)
     return combined

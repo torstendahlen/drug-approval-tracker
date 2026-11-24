@@ -16,12 +16,12 @@ class DrugRepository(private val context: Context) {
 
     companion object {
         private const val KEY_FEED_URL = "feed_url"
+        private const val KEY_GITHUB_TOKEN = "github_token"
         private const val KEY_BOOKMARKS = "bookmarks"
         private const val KEY_SEEN_EVENTS = "seen_events"
         private const val KEY_NOTIFICATIONS_ENABLED = "notifications_enabled"
         private const val KEY_NOTIFY_ONLY_NEW_INDICATIONS = "notify_only_new_indications"
 
-        // Replace with your GitHub Pages / raw GitHub URL once pushed, or edit in app Settings.
         const val DEFAULT_FEED_URL =
             "https://raw.githubusercontent.com/torstendahlen/drug-approval-tracker/main/docs/data/drugs.json"
     }
@@ -30,6 +30,12 @@ class DrugRepository(private val context: Context) {
 
     fun setFeedUrl(url: String) {
         prefs.edit().putString(KEY_FEED_URL, url.trim()).apply()
+    }
+
+    fun getGithubToken(): String = prefs.getString(KEY_GITHUB_TOKEN, "") ?: ""
+
+    fun setGithubToken(token: String) {
+        prefs.edit().putString(KEY_GITHUB_TOKEN, token.trim()).apply()
     }
 
     fun isNotificationsEnabled(): Boolean = prefs.getBoolean(KEY_NOTIFICATIONS_ENABLED, true)
@@ -75,21 +81,23 @@ class DrugRepository(private val context: Context) {
 
     suspend fun refreshFromRemote(): Result<DrugFeed> = withContext(Dispatchers.IO) {
         val urlStr = getFeedUrl()
-        if (urlStr.contains("YOUR_USERNAME")) {
-            return@withContext Result.failure(
-                IllegalStateException("Set your GitHub drugs.json URL in Settings to sync live data.")
-            )
-        }
+        val token = getGithubToken()
 
         runCatching {
             val conn = (URL(urlStr).openConnection() as HttpURLConnection).apply {
                 connectTimeout = 15_000
-                readTimeout = 20_000
+                readTimeout = 30_000
                 requestMethod = "GET"
                 setRequestProperty("Accept", "application/json")
+                if (token.isNotBlank()) {
+                    setRequestProperty("Authorization", "Bearer $token")
+                }
             }
             try {
                 val code = conn.responseCode
+                if (code == 404) {
+                    error("HTTP 404: Check Feed URL or add GitHub Token in Settings if repo is private.")
+                }
                 if (code !in 200..299) {
                     error("HTTP $code from feed URL")
                 }

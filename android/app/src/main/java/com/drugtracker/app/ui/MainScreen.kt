@@ -13,7 +13,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
@@ -51,6 +50,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -58,6 +58,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.drugtracker.app.data.AtcGroupFilter
 import com.drugtracker.app.data.DrugRecord
 import com.drugtracker.app.data.SourceFilter
+import com.drugtracker.app.data.TimeRangeFilter
 import com.drugtracker.app.data.UpdateTypeFilter
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -83,7 +84,7 @@ fun MainScreen(vm: DrugViewModel = viewModel()) {
                     Column {
                         Text("Drug Approval Tracker", fontWeight = FontWeight.Bold)
                         Text(
-                            text = "EMA · TLV · NT-rådet",
+                            text = "EMA · TLV · NT-rådet · ${state.drugs.size}/${state.totalInFeed} drugs",
                             style = MaterialTheme.typography.labelSmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
@@ -129,7 +130,7 @@ fun MainScreen(vm: DrugViewModel = viewModel()) {
                     .padding(horizontal = 16.dp, vertical = 8.dp),
             )
 
-            // Source & Bookmarks row
+            // Source, Time Range & Bookmarks row
             Row(
                 modifier = Modifier
                     .horizontalScroll(rememberScrollState())
@@ -141,6 +142,13 @@ fun MainScreen(vm: DrugViewModel = viewModel()) {
                         selected = state.sourceFilter == src,
                         onClick = { vm.onSourceFilterChange(src) },
                         label = { Text(src.label) },
+                    )
+                }
+                TimeRangeFilter.entries.forEach { range ->
+                    FilterChip(
+                        selected = state.timeRangeFilter == range,
+                        onClick = { vm.onTimeRangeFilterChange(range) },
+                        label = { Text(range.label) },
                     )
                 }
                 FilterChip(
@@ -221,11 +229,12 @@ fun MainScreen(vm: DrugViewModel = viewModel()) {
     if (showSettings) {
         SettingsDialog(
             currentUrl = state.feedUrl,
+            currentToken = state.githubToken,
             notificationsEnabled = state.notificationsEnabled,
             onlyNewIndications = state.notifyOnlyNewIndications,
             onDismiss = { showSettings = false },
-            onSave = { url, notif, onlyInd ->
-                vm.saveSettings(url, notif, onlyInd)
+            onSave = { url, token, notif, onlyInd ->
+                vm.saveSettings(url, token, notif, onlyInd)
                 showSettings = false
             },
         )
@@ -328,12 +337,14 @@ private fun DrugCard(
 @Composable
 private fun SettingsDialog(
     currentUrl: String,
+    currentToken: String,
     notificationsEnabled: Boolean,
     onlyNewIndications: Boolean,
     onDismiss: () -> Unit,
-    onSave: (String, Boolean, Boolean) -> Unit,
+    onSave: (String, String, Boolean, Boolean) -> Unit,
 ) {
     var url by remember { mutableStateOf(currentUrl) }
+    var token by remember { mutableStateOf(currentToken) }
     var notif by remember { mutableStateOf(notificationsEnabled) }
     var onlyInd by remember { mutableStateOf(onlyNewIndications) }
 
@@ -348,6 +359,14 @@ private fun SettingsDialog(
                     label = { Text("Feed JSON URL") },
                     singleLine = false,
                     maxLines = 3,
+                    modifier = Modifier.fillMaxWidth(),
+                )
+                OutlinedTextField(
+                    value = token,
+                    onValueChange = { token = it },
+                    label = { Text("GitHub Token (only if repo is private)") },
+                    visualTransformation = PasswordVisualTransformation(),
+                    singleLine = true,
                     modifier = Modifier.fillMaxWidth(),
                 )
                 Row(
@@ -371,7 +390,7 @@ private fun SettingsDialog(
             }
         },
         confirmButton = {
-            TextButton(onClick = { onSave(url, notif, onlyInd) }) {
+            TextButton(onClick = { onSave(url, token, notif, onlyInd) }) {
                 Text("Save")
             }
         },

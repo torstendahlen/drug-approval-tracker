@@ -56,6 +56,12 @@ enum class UpdateTypeFilter(val label: String, val code: String?) {
     NEW_INDICATION("New Indication", "new_indication"),
 }
 
+enum class TimeRangeFilter(val label: String, val days: Long?) {
+    ALL("All Archive", null),
+    DAYS_90("Last 90 Days", 90L),
+    DAYS_365("Last 12 Months", 365L),
+}
+
 enum class AtcGroupFilter(val label: String, val prefix: String?) {
     ALL("All ATC", null),
     L("L · Oncology / Immuno", "L"),
