@@ -1,9 +1,11 @@
-"""Orchestrate fetching EMA, TLV, and NT-rådet, merge with archive, and write docs/data/drugs.json."""
+"""Orchestrate fetching EMA, TLV, and NT-rådet, merge with 365-day archive, and write docs/data/drugs.json."""
 
 from __future__ import annotations
 
+import argparse
 import json
 import logging
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -51,6 +53,10 @@ def _load_existing_events() -> list[dict[str, Any]]:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Build unified EMA/TLV/NT-rådet drug feed")
+    parser.add_argument("--days", type=int, default=365, help="Rolling history window in days (0 = keep all)")
+    args = parser.parse_args()
+
     events = _load_existing_events()
     fetched_any = False
 
@@ -67,6 +73,12 @@ def main() -> None:
     if not fetched_any and not events:
         logger.warning("No events fetched from any source; keeping existing %s if present.", OUTPUT_PATH)
         return
+
+    if args.days > 0:
+        cutoff = (datetime.now(timezone.utc) - timedelta(days=args.days)).strftime("%Y-%m-%d")
+        before = len(events)
+        events = [e for e in events if (e.get("date") or "") >= cutoff]
+        logger.info("Filtered to >= %s (%d -> %d events)", cutoff, before, len(events))
 
     feed = build_unified_feed(events)
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)

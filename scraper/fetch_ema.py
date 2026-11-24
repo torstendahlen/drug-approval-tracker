@@ -29,7 +29,7 @@ EMA_RSS_URLS = [
     "https://www.ema.europa.eu/en/medicines/rss.xml",
 ]
 
-USER_AGENT = "DrugApprovalTracker/1.1 (https://github.com/torstendahlen/drug-approval-tracker)"
+USER_AGENT = "DrugApprovalTracker/1.2 (https://github.com/torstendahlen/drug-approval-tracker)"
 
 
 def _parse_date(raw: str | None) -> str:
@@ -115,48 +115,46 @@ def fetch_ema_json(limit: int = 3000) -> list[dict[str, Any]]:
     for item in records:
         if not isinstance(item, dict):
             continue
-        category = str(item.get("Category") or item.get("category") or "").lower()
+        category = str(item.get("category") or item.get("Category") or "").lower()
         if category and "human" not in category:
             continue
 
         status = str(
-            item.get("Authorisation status")
-            or item.get("authorisation_status")
-            or item.get("Medicine status")
+            item.get("medicine_status")
+            or item.get("opinion_status")
+            or item.get("Authorisation status")
             or ""
         ).strip()
         if status.lower() not in ("authorised", "authorized", "positive opinion", ""):
             continue
 
-        name = str(item.get("Medicine name") or item.get("Name of medicine") or item.get("name") or "").strip()
+        name = str(item.get("name_of_medicine") or item.get("Medicine name") or "").strip()
         substance = str(
-            item.get("Active substance")
-            or item.get("International non-proprietary name (INN) / common name")
-            or item.get("active_substance")
+            item.get("active_substance")
+            or item.get("international_non_proprietary_name_common_name")
+            or item.get("Active substance")
             or ""
         ).strip()
-        atc = str(item.get("ATC code") or item.get("atc_code") or "").strip()
-        indication = str(item.get("Therapeutic indication") or item.get("therapeutic_indication") or "").strip()
-        area = str(item.get("Therapeutic area") or item.get("therapeutic_area") or "").strip()
+        atc = str(item.get("atc_code_human") or item.get("ATC code") or "").strip()
+        indication = str(item.get("therapeutic_indication") or item.get("Therapeutic indication") or "").strip()
+        area = str(
+            item.get("pharmacotherapeutic_group_human")
+            or item.get("therapeutic_area_mesh")
+            or item.get("Therapeutic area")
+            or ""
+        ).strip()
 
-        rev_date = _parse_date(
-            str(
-                item.get("Revision date")
-                or item.get("Date of opinion")
-                or item.get("Marketing authorisation date")
-                or item.get("First published")
-                or ""
-            )
-        )
-        ma_date = _parse_date(str(item.get("Marketing authorisation date") or ""))
-        date_str = rev_date or ma_date
+        ma_date = _parse_date(str(item.get("marketing_authorisation_date") or ""))
+        opinion_date = _parse_date(str(item.get("opinion_adopted_date") or ""))
+        updated_date = _parse_date(str(item.get("last_updated_date") or item.get("first_published_date") or ""))
+        date_str = updated_date or ma_date or opinion_date
         if not name or not date_str:
             continue
 
-        url = _abs_ema_url(str(item.get("URL") or item.get("url") or ""))
+        url = _abs_ema_url(str(item.get("medicine_url") or item.get("URL") or ""))
 
         update_type = "new_drug"
-        if ma_date and rev_date and rev_date > ma_date:
+        if ma_date and updated_date and updated_date > ma_date:
             update_type = "new_indication"
 
         events.append(
@@ -192,35 +190,40 @@ def fetch_ema_post_authorisation(limit: int = 1000) -> list[dict[str, Any]]:
     for item in records:
         if not isinstance(item, dict):
             continue
-        name = str(item.get("Medicine name") or item.get("Name of medicine") or "").strip()
-        substance = str(item.get("Active substance") or "").strip()
-        proc_type = str(item.get("Type of procedure") or item.get("Procedure type") or "").strip()
-        scope = str(item.get("Scope") or item.get("Summary of opinion") or "").strip()
-        opinion = str(item.get("Opinion") or item.get("Outcome") or "Post-authorisation").strip()
+        category = str(item.get("category") or "").lower()
+        if category and "human" not in category:
+            continue
+
+        name = str(item.get("name_of_medicine") or "").strip()
+        substance = str(item.get("active_substance") or item.get("international_non_proprietary_name_common_name") or "").strip()
+        proc_status = str(item.get("post_authorisation_procedure_status") or "").strip()
+        opinion = str(item.get("post_authorisation_opinion_status") or proc_status or "Post-authorisation").strip()
         date_str = _parse_date(
-            str(item.get("Date of opinion") or item.get("Revision date") or item.get("First published") or "")
+            str(
+                item.get("post_authorisation_opinion_date")
+                or item.get("last_updated_date")
+                or item.get("first_published_date")
+                or ""
+            )
         )
         if not name or not date_str:
             continue
 
-        combined = f"{proc_type} {scope}"
-        if "indication" not in combined.lower() and "extension" not in combined.lower():
-            continue
-
-        url = _abs_ema_url(str(item.get("URL") or item.get("url") or ""))
+        area = str(item.get("therapeutic_area_mesh") or "").strip()
+        url = _abs_ema_url(str(item.get("medicine_url") or ""))
         events.append(
             {
                 "source": "EMA",
                 "drug_name": name,
                 "active_substance": substance,
-                "atc_code": str(item.get("ATC code") or "").strip(),
-                "therapeutic_area": str(item.get("Therapeutic area") or "").strip(),
+                "atc_code": str(item.get("atc_code_human") or "").strip(),
+                "therapeutic_area": area,
                 "date": date_str,
                 "update_type": "new_indication",
                 "status": opinion,
-                "title": f"{name} – {proc_type or 'Extension of indication'}",
-                "indication": scope[:600],
-                "summary": f"EMA post-authorisation ({opinion}): {scope[:350]}",
+                "title": f"{name} ({substance}) – {opinion}",
+                "indication": area,
+                "summary": f"EMA post-authorisation ({opinion}).",
                 "url": url,
             }
         )

@@ -24,7 +24,7 @@ jobs:
         run: pip install -r scraper/requirements.txt
 
       - name: Run scraper
-        run: python scraper/build_feed.py
+        run: python scraper/build_feed.py --days 365
 
       - name: Commit updated feed
         run: |

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Subtle outer ring -->
+    <path
+        android:fillColor="#1AFFFFFF"
+        android:pathData="M54,54m-31,0a31,31 0,1 1,62 0a31,31 0,1 1,-62 0" />
+
+    <!-- Tilted medical capsule (upper white half) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-45">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M43,39 C43,32.92 47.92,28 54,28 C60.08,28 65,32.92 65,39 L65,54 L43,54 Z" />
+        <!-- Lower half of capsule (soft ice-blue) -->
+        <path
+            android:fillColor="#FFBBDDFB"
+            android:pathData="M43,54 L65,54 L65,69 C65,75.08 60.08,80 54,80 C47.92,80 43,75.08 43,69 Z" />
+    </group>
+
+    <!-- Approval checkmark badge (bottom-right) -->
+    <path
+        android:fillColor="#FF16A34A"
+        android:pathData="M69,69m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.2" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M64,69.2 L67.5,72.7 L74.5,65.5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="2.6" />
+</vector>
