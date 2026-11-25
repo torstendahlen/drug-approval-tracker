@@ -1,12 +1,614 @@
 {
-  "generated_at": "2026-11-24T20:44:13Z",
+  "generated_at": "2026-11-25T17:40:36Z",
   "counts": {
-    "total": 979,
-    "ema": 801,
+    "total": 981,
+    "ema": 802,
     "tlv": 152,
     "nt_radet": 50
   },
   "drugs": [
+    {
+      "id": "sub-entacapone",
+      "drug_name": "Entacapone Orion",
+      "active_substance": "entacapone",
+      "atc_code": "N04BX02",
+      "therapeutic_area": "Anti-Parkinson drugs",
+      "latest_date": "2026-11-25",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-25",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Comtess (entacapone) – Authorised",
+          "indication": "Entacapone is indicated as an adjunct to standard preparations of levodopa / benserazide or levodopa / carbidopa for use in patients with Parkinson's disease and end-of-dose motor fluctuations, who cannot be stabilised on those combinations.",
+          "summary": "EMA status: Authorised. MA date: 1998-09-16.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/comtess"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-20",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Entacapone Orion (entacapone) – Authorised",
+          "indication": "Entacapone is indicated as an adjunct to standard preparations of levodopa / benserazide or levodopa / carbidopa for use in adult patients with Parkinson's disease and end-of-dose motor fluctuations, who cannot be stabilised on those combinations.",
+          "summary": "EMA status: Authorised. MA date: 2011-08-18.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/entacapone-orion"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-05-07",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Comtan (entacapone) – Authorised",
+          "indication": "Entacapone is indicated as an adjunct to standard preparations of levodopa / benserazide or levodopa / carbidopa for use in adult patients with Parkinson's disease and end-of-dose motor fluctuations, who cannot be stabilised on those combinations.",
+          "summary": "EMA status: Authorised. MA date: 1998-09-22.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/comtan"
+        }
+      ]
+    },
+    {
+      "id": "name-sensura",
+      "drug_name": "SenSura",
+      "active_substance": "",
+      "atc_code": "",
+      "therapeutic_area": "Other / Unclassified",
+      "latest_date": "2026-11-25",
+      "latest_update_type": "other",
+      "sources_present": [
+        "TLV"
+      ],
+      "events": [
+        {
+          "source": "TLV",
+          "date": "2026-11-25",
+          "update_type": "other",
+          "status": "TLV Beslut",
+          "title": "SenSura Mio 1- dels tömbar Convex Flip i fem olika utföranden ingår i högkostnadsskyddet",
+          "indication": "SenSura Mio 1- dels tömbar Convex Flip är uppklippbara och tömbara endelsbandage med en konvex hudskyddsplatta avsedda för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 december 2026.",
+          "summary": "SenSura Mio 1- dels tömbar Convex Flip är uppklippbara och tömbara endelsbandage med en konvex hudskyddsplatta avsedda för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 december 2026.",
+          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-11-25-sensura-mio-1--dels-tombar-convex-flip-i-fem-olika-utforanden-ingar-i-hogkostnadsskyddet.html"
+        },
+        {
+          "source": "TLV",
+          "date": "2026-11-20",
+          "update_type": "other",
+          "status": "TLV Beslut",
+          "title": "SenSura Mio 1-dels tömbar Convex Flip ingår i högkostnadsskyddet",
+          "indication": "SenSura Mio 1-dels tömbar Convex Flip är tömbara endelsbandage med en konvex hudskyddsplatta avsedda för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 1 december 2026.",
+          "summary": "SenSura Mio 1-dels tömbar Convex Flip är tömbara endelsbandage med en konvex hudskyddsplatta avsedda för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 1 december 2026.",
+          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-11-20-sensura-mio-1-dels-tombar-convex-flip-ingar-i-hogkostnadsskyddet.html"
+        },
+        {
+          "source": "TLV",
+          "date": "2026-11-18",
+          "update_type": "other",
+          "status": "TLV Beslut",
+          "title": "SenSura® Mio 1-dels sluten Convex Flip    ingår i högkostnadsskyddet",
+          "indication": "SenSura® Mio 1-dels sluten Convex Flip är slutna endelsbandage med konvex hudskyddsplatta och förstansat hål avsedd för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 1 december 2026.",
+          "summary": "SenSura® Mio 1-dels sluten Convex Flip är slutna endelsbandage med konvex hudskyddsplatta och förstansat hål avsedd för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 1 december 2026.",
+          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-11-18-sensurar-mio-1-dels-sluten-convex-flip----ingar-i-hogkostnadsskyddet.html"
+        },
+        {
+          "source": "TLV",
+          "date": "2026-11-13",
+          "update_type": "other",
+          "status": "TLV Beslut",
+          "title": "SenSura® Mio 1-dels sluten Convex Flip ingår i högkostnadsskyddet",
+          "indication": "SenSura® Mio 1-dels sluten Convex Flip är endelsbandage med konvex hudskyddsplattan avsedda för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 24 november 2026.",
+          "summary": "SenSura® Mio 1-dels sluten Convex Flip är endelsbandage med konvex hudskyddsplattan avsedda för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 24 november 2026.",
+          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-11-13-sensurar-mio-1-dels-sluten-convex-flip-ingar-i-hogkostnadsskyddet.html"
+        },
+        {
+          "source": "TLV",
+          "date": "2026-03-02",
+          "update_type": "new_drug",
+          "status": "Ingår i förmånen",
+          "title": "SenSura Mio 2-delspåse sluten i åtta olika utföranden ingår i läkemedelsförmånerna",
+          "indication": "SenSura Mio 2-delspåse sluten är ett slutet tvådelsbandage med kopplingsring. Stomibandaget består av en sluten stomipåse och en hudskyddsplatta som kopplas ihop med en kopplingsring.",
+          "summary": "SenSura Mio 2-delspåse sluten är ett slutet tvådelsbandage med kopplingsring. Stomibandaget består av en sluten stomipåse och en hudskyddsplatta som kopplas ihop med en kopplingsring.",
+          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-03-02-sensura-mio-2-delspase-sluten-i-atta-olika-utforanden-ingar-i-lakemedelsformanerna.html"
+        },
+        {
+          "source": "TLV",
+          "date": "2025-12-04",
+          "update_type": "new_drug",
+          "status": "Ingår i förmånen",
+          "title": "Sensura Mio 1-dels Convex sluten stomipåse ingår i läkemedelsförmånerna",
+          "indication": "TLV bedömer att förutsättningarna för subvention är uppfyllda. Sensura Mio 1-dels Convex sluten stomipåse med uppklippbart respektive förstansat hål ingår i läkemedelsförmånerna från och med den 17 december 2025.",
+          "summary": "TLV bedömer att förutsättningarna för subvention är uppfyllda. Sensura Mio 1-dels Convex sluten stomipåse med uppklippbart respektive förstansat hål ingår i läkemedelsförmånerna från och med den 17 december 2025.",
+          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2025-12-04-sensura-mio-1-dels-convex-sluten-stomipase-ingar-i-lakemedelsformanerna.html"
+        }
+      ]
+    },
+    {
+      "id": "sub-nusinersen-sodium",
+      "drug_name": "Spinraza",
+      "active_substance": "nusinersen sodium",
+      "atc_code": "M09",
+      "therapeutic_area": "Other nervous system drugs",
+      "latest_date": "2026-11-25",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-25",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Spinraza (nusinersen sodium) – Authorised",
+          "indication": "Spinraza is indicated for the treatment of 5q Spinal Muscular Atrophy.",
+          "summary": "EMA status: Authorised. MA date: 2017-05-30.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/spinraza"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-10",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Spinraza (nusinersen sodium) – Authorised",
+          "indication": "Spinraza is indicated for the treatment of 5q Spinal Muscular Atrophy.",
+          "summary": "EMA status: Authorised. MA date: 2017-05-30.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/spinraza"
+        }
+      ]
+    },
+    {
+      "id": "sub-single-stranded-5-capped-messenger-rna-produced-using-a-cell-free-in-vitro-transcription-from-the-corresponding-dna-templates-encoding-the-viral-spike-protein-of-sars-cov-2",
+      "drug_name": "Comirnaty",
+      "active_substance": "single-stranded, 5’-capped messenger RNA produced using a cell-free in vitro transcription from the corresponding DNA templates, encoding the viral spike (S) protein of SARS-CoV-2",
+      "atc_code": "J07BN01",
+      "therapeutic_area": "Vaccines",
+      "latest_date": "2026-11-25",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-25",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Comirnaty (single-stranded, 5’-capped messenger RNA produced using a cell-free in vitro transcription from the corresponding DNA templates, encoding the viral spike (S) protein of SARS-CoV-2) – Authorised",
+          "indication": "Comirnaty LP.8.1 dispersion for injection is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in individuals 6 months of age and older. The use of this vaccine should be in accordance with official recommendations. Comirnaty XFG dispersion for injection is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in individuals 6 months of age and older.&nbsp; The use of this vaccine should be in accordance with official recommendations.",
+          "summary": "EMA status: Authorised. MA date: 2020-12-21.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/comirnaty"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-06",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Comirnaty (single-stranded, 5’-capped messenger RNA produced using a cell-free in vitro transcription from the corresponding DNA templates, encoding the viral spike (S) protein of SARS-CoV-2) – Authorised",
+          "indication": "Comirnaty LP.8.1 dispersion for injection is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in individuals 6 months of age and older. The use of this vaccine should be in accordance with official recommendations. Comirnaty XFG dispersion for injection is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in individuals 6 months of age and older.&nbsp; The use of this vaccine should be in accordance with official recommendations.",
+          "summary": "EMA status: Authorised. MA date: 2020-12-21.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/comirnaty"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-30",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Spikevax (previously COVID-19 Vaccine Moderna) (single-stranded, 5’-capped messenger RNA (mRNA) produced using a cell-free in vitro transcription from the corresponding DNA templates, encoding the viral spike (S) protein of SARS-CoV-2) – Authorised",
+          "indication": "Spikevax is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in individuals 6 months of age and older. The use of this vaccine should be in accordance with official recommendations. Spikevax bivalent Original/Omicron BA.1 is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in individuals 6 years of age and older who have previously received at least a primary vaccination course against COVID-19. The use of this vaccine should be in accordance with official recommendations. Spikevax bivalent Original/Omicron BA.4-5 is indicated for active immu",
+          "summary": "EMA status: Authorised. MA date: 2021-01-06.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/spikevax"
+        }
+      ]
+    },
+    {
+      "id": "sub-pegfilgrastim",
+      "drug_name": "Nylaspeg",
+      "active_substance": "pegfilgrastim",
+      "atc_code": "L03AA13",
+      "therapeutic_area": "Immunostimulants",
+      "latest_date": "2026-11-25",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-25",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Dyrupeg (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2025-03-28.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/dyrupeg"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-04",
+          "update_type": "new_drug",
+          "status": "Authorised",
+          "title": "Nylaspeg (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).&nbsp;",
+          "summary": "EMA status: Authorised. MA date: 2026-11-04.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/nylaspeg"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-21",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Cavoley (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2026-09-25.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cavoley"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-02",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Ziextenzo (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2018-11-22.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ziextenzo"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-17",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Grasustek (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2019-06-20.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/grasustek"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-08-14",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Fulphila (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2018-11-20.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/fulphila"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-07-14",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Dyrupeg (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2025-03-28.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/dyrupeg"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-06-30",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Pelgraz (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2018-09-21.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pelgraz"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-03-18",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Cegfila (previously Pegfilgrastim Mundipharma) (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2019-12-19.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cegfila"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-03-18",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Pelmeg (pegfilgrastim) – Authorised",
+          "indication": "To reduce the duration of neutropenia and the incidence of febrile neutropenia due to chemotherapy.",
+          "summary": "EMA status: Authorised. MA date: 2018-11-20.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pelmeg"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-02-24",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Vivlipeg (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2025-08-18.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vivlipeg"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-01-20",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Nyvepria (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2020-11-18.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/nyvepria"
+        },
+        {
+          "source": "EMA",
+          "date": "2025-12-08",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Neulasta (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2002-08-22.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/neulasta"
+        }
+      ]
+    },
+    {
+      "id": "sub-ambrisentan",
+      "drug_name": "Ambrisentan Viatris (previously Ambrisentan Mylan)",
+      "active_substance": "ambrisentan",
+      "atc_code": "C02KX02",
+      "therapeutic_area": "Antihypertensives",
+      "latest_date": "2026-11-25",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-25",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Volibris (ambrisentan) – Authorised",
+          "indication": "Volibris is indicated for treatment of pulmonary arterial hypertension (PAH) in adult patients of WHO Functional Class (FC) II to III, including use in combination treatment (see section 5.1).  Efficacy has been shown in idiopathic PAH (IPAH) and in PAH associated with connective tissue disease. Volibris is indicated for treatment of PAH in adolescents and children (aged 8 to less than 18 years) of WHO Functional Class (FC) II to III including use in combination treatment. Efficacy has been shown in IPAH, familial, corrected congenital and in PAH associated with connective tissue disease (see ",
+          "summary": "EMA status: Authorised. MA date: 2008-04-21.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/volibris"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-03",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Ambrisentan Viatris (previously Ambrisentan Mylan) (ambrisentan) – Authorised",
+          "indication": "Ambrisentan Mylan is indicated for the treatment of pulmonary arterial hypertension (PAH) in adult patients of WHO Functional Class (FC) II to III, including use in combination treatment. Efficacy has been shown in idiopathic PAH (IPAH) and in PAH associated with connective tissue disease. Ambrisentan Mylan is indicated for the treatment of pulmonary arterial hypertension (PAH) in adult patients of WHO Functional Class (FC) II to III, including use in combination treatment. Efficacy has been shown in idiopathic PAH (IPAH) and in PAH associated with connective tissue disease.",
+          "summary": "EMA status: Authorised. MA date: 2019-06-20.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ambrisentan-viatris"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-04-22",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Volibris (ambrisentan) – Authorised",
+          "indication": "Volibris is indicated for treatment of pulmonary arterial hypertension (PAH) in adult patients of WHO Functional Class (FC) II to III, including use in combination treatment (see section 5.1).  Efficacy has been shown in idiopathic PAH (IPAH) and in PAH associated with connective tissue disease. Volibris is indicated for treatment of PAH in adolescents and children (aged 8 to less than 18 years) of WHO Functional Class (FC) II to III including use in combination treatment. Efficacy has been shown in IPAH, familial, corrected congenital and in PAH associated with connective tissue disease (see ",
+          "summary": "EMA status: Authorised. MA date: 2008-04-21.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/volibris"
+        }
+      ]
+    },
+    {
+      "id": "sub-nipocalimab",
+      "drug_name": "Imaavy",
+      "active_substance": "nipocalimab",
+      "atc_code": "L04AL03",
+      "therapeutic_area": "Immunosuppressants",
+      "latest_date": "2026-11-25",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-25",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Imaavy (nipocalimab) – Authorised",
+          "indication": "Imaavy is indicated as an add-on to standard therapy for the treatment of generalised myasthenia gravis (gMG) in adult and adolescent patients aged 12 years of age and older who are anti‑acetylcholine receptor (AChR) or anti-muscle-specific tyrosine kinase (MuSK) antibody positive.",
+          "summary": "EMA status: Authorised. MA date: 2025-11-28.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/imaavy"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-08-21",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Imaavy (nipocalimab) – Authorised",
+          "indication": "Imaavy is indicated as an add-on to standard therapy for the treatment of generalised myasthenia gravis (gMG) in adult and adolescent patients aged 12 years of age and older who are anti‑acetylcholine receptor (AChR) or anti-muscle-specific tyrosine kinase (MuSK) antibody positive.",
+          "summary": "EMA status: Authorised. MA date: 2025-11-28.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/imaavy"
+        }
+      ]
+    },
+    {
+      "id": "sub-pegvaliase",
+      "drug_name": "Palynziq",
+      "active_substance": "pegvaliase",
+      "atc_code": "A16AB19",
+      "therapeutic_area": "Phenylketonurias",
+      "latest_date": "2026-11-25",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-25",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Palynziq (pegvaliase) – Authorised",
+          "indication": "Palynziq is indicated for the treatment of patients with phenylketonuria (PKU) aged 12 years and older who have inadequate blood phenylalanine control (blood phenylalanine levels greater than 600 micromol/l) despite prior management with available treatment options.",
+          "summary": "EMA status: Authorised. MA date: 2019-05-03.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/palynziq"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-05-21",
+          "update_type": "new_indication",
+          "status": "Positive",
+          "title": "Palynziq (pegvaliase) – Positive",
+          "indication": "Phenylketonurias",
+          "summary": "EMA post-authorisation (Positive).",
+          "url": "https://www.ema.europa.eu/en/medicines/human/variation/palynziq"
+        }
+      ]
+    },
+    {
+      "id": "sub-finerenone",
+      "drug_name": "Kerendia",
+      "active_substance": "finerenone",
+      "atc_code": "C09",
+      "therapeutic_area": "Agents acting on the renin-angiotensin system",
+      "latest_date": "2026-11-25",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-25",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Kerendia (finerenone) – Authorised",
+          "indication": "Kerendia is indicated for the treatment of chronic kidney disease (with albuminuria) associated with type 2 diabetes in adults. For study results with respect to renal and cardiovascular events, see section 5.1. Kerendia is indicated for the treatment of symptomatic chronic heart failure with left ventricular ejection fraction (LVEF) ≥ 40% in adults.",
+          "summary": "EMA status: Authorised. MA date: 2022-02-16.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kerendia"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-05-07",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Kerendia (finerenone) – Authorised",
+          "indication": "Kerendia is indicated for the treatment of chronic kidney disease (with albuminuria) associated with type 2 diabetes in adults. For study results with respect to renal and cardiovascular events, see section 5.1. Kerendia is indicated for the treatment of symptomatic chronic heart failure with left ventricular ejection fraction (LVEF) ≥ 40% in adults.",
+          "summary": "EMA status: Authorised. MA date: 2022-02-16.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kerendia"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-01-29",
+          "update_type": "new_indication",
+          "status": "Positive",
+          "title": "Kerendia (finerenone) – Positive",
+          "indication": "Renal Insufficiency, Chronic;Diabetes Mellitus, Type 2;Heart Failure",
+          "summary": "EMA post-authorisation (Positive).",
+          "url": "https://www.ema.europa.eu/en/medicines/human/variation/kerendia"
+        }
+      ]
+    },
+    {
+      "id": "sub-tebentafusp",
+      "drug_name": "Kimmtrak",
+      "active_substance": "tebentafusp",
+      "atc_code": "L01XX75",
+      "therapeutic_area": "Antineoplastic agents",
+      "latest_date": "2026-11-25",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-25",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Kimmtrak (tebentafusp) – Authorised",
+          "indication": "Kimmtrak is indicated as monotherapy for the treatment of human leukocyte antigen (HLA)-A*02:01-positive adult patients with unresectable or metastatic uveal melanoma.",
+          "summary": "EMA status: Authorised. MA date: 2022-04-01.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kimmtrak"
+        },
+        {
+          "source": "EMA",
+          "date": "2025-12-09",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Kimmtrak (tebentafusp) – Authorised",
+          "indication": "Kimmtrak is indicated as monotherapy for the treatment of human leukocyte antigen (HLA)-A*02:01-positive adult patients with unresectable or metastatic uveal melanoma.",
+          "summary": "EMA status: Authorised. MA date: 2022-04-01.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kimmtrak"
+        }
+      ]
+    },
+    {
+      "id": "sub-lerodalcibep",
+      "drug_name": "Lyrokaul",
+      "active_substance": "Lerodalcibep",
+      "atc_code": "C10AX19",
+      "therapeutic_area": "Lipid modifying agents",
+      "latest_date": "2026-11-25",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-25",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Lyrokaul (Lerodalcibep) – Authorised",
+          "indication": "Lyrokaul is indicated in adults with primary hypercholesterolaemia (heterozygous familial (HeFH) and non-familial) or mixed dyslipidaemia as an adjunct to diet:  in combination with a statin or statin with other lipid-lowering therapies in patients unable to reach low-density lipoprotein cholesterol (LDL-C) goals with the maximum tolerated dose of a statin, or alone or in combination with other lipid-lowering therapies in patients who are statin intolerant or for whom a statin is contraindicated.",
+          "summary": "EMA status: Authorised. MA date: 2026-09-18.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/lyrokaul"
+        }
+      ]
+    },
+    {
+      "id": "sub-daraxonrasib",
+      "drug_name": "Rasonque",
+      "active_substance": "daraxonrasib",
+      "atc_code": "L01XX",
+      "therapeutic_area": "Antineoplastic agents",
+      "latest_date": "2026-11-25",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-25",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Rasonque (daraxonrasib) – Authorised",
+          "indication": "Rasonque as monotherapy is indicated for the treatment of adult patients with metastatic pancreatic adenocarcinoma who have received at least one prior systemic therapy.",
+          "summary": "EMA status: Authorised. MA date: 2026-11-16.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rasonque"
+        }
+      ]
+    },
+    {
+      "id": "name-kath",
+      "drug_name": "KATH",
+      "active_substance": "",
+      "atc_code": "",
+      "therapeutic_area": "Other / Unclassified",
+      "latest_date": "2026-11-25",
+      "latest_update_type": "other",
+      "sources_present": [
+        "TLV"
+      ],
+      "events": [
+        {
+          "source": "TLV",
+          "date": "2026-11-25",
+          "update_type": "other",
+          "status": "TLV Beslut",
+          "title": "KATH I 25G och KATH YI 25G, infusionsset, ingår i högkostnadsskyddet",
+          "indication": "KATH I 25G och KATH YI 25G är infusionsset avsedda för infusion av subkutana läkemedel. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 december 2026.",
+          "summary": "KATH I 25G och KATH YI 25G är infusionsset avsedda för infusion av subkutana läkemedel. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 december 2026.",
+          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-11-25-kath-i-25g-och-kath-yi-25g-infusionsset-ingar-i-hogkostnadsskyddet.html"
+        }
+      ]
+    },
     {
       "id": "sub-cemiplimab",
       "drug_name": "Libtayo",
@@ -789,40 +1391,6 @@
       ]
     },
     {
-      "id": "sub-entacapone",
-      "drug_name": "Entacapone Orion",
-      "active_substance": "entacapone",
-      "atc_code": "N04BX02",
-      "therapeutic_area": "Anti-Parkinson drugs",
-      "latest_date": "2026-11-20",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-20",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Entacapone Orion (entacapone) – Authorised",
-          "indication": "Entacapone is indicated as an adjunct to standard preparations of levodopa / benserazide or levodopa / carbidopa for use in adult patients with Parkinson's disease and end-of-dose motor fluctuations, who cannot be stabilised on those combinations.",
-          "summary": "EMA status: Authorised. MA date: 2011-08-18.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/entacapone-orion"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-05-07",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Comtan (entacapone) – Authorised",
-          "indication": "Entacapone is indicated as an adjunct to standard preparations of levodopa / benserazide or levodopa / carbidopa for use in adult patients with Parkinson's disease and end-of-dose motor fluctuations, who cannot be stabilised on those combinations.",
-          "summary": "EMA status: Authorised. MA date: 1998-09-22.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/comtan"
-        }
-      ]
-    },
-    {
       "id": "sub-sonidegib-diphosphate",
       "drug_name": "Odomzo",
       "active_substance": "sonidegib diphosphate",
@@ -984,70 +1552,6 @@
           "indication": "TRE Hudskyddsring är en formbar tätningsring som placeras runt en stomi för att reducera läckage och skydda huden i de fall en stomiplatta inte kan hålla helt tätt. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 3 december 2026.",
           "summary": "TRE Hudskyddsring är en formbar tätningsring som placeras runt en stomi för att reducera läckage och skydda huden i de fall en stomiplatta inte kan hålla helt tätt. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 3 december 2026.",
           "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-11-20-tre-hudskyddsring-ingar-i-hogkostnadsskyddet.html"
-        }
-      ]
-    },
-    {
-      "id": "name-sensura",
-      "drug_name": "SenSura",
-      "active_substance": "",
-      "atc_code": "",
-      "therapeutic_area": "Other / Unclassified",
-      "latest_date": "2026-11-20",
-      "latest_update_type": "other",
-      "sources_present": [
-        "TLV"
-      ],
-      "events": [
-        {
-          "source": "TLV",
-          "date": "2026-11-20",
-          "update_type": "other",
-          "status": "TLV Beslut",
-          "title": "SenSura Mio 1-dels tömbar Convex Flip ingår i högkostnadsskyddet",
-          "indication": "SenSura Mio 1-dels tömbar Convex Flip är tömbara endelsbandage med en konvex hudskyddsplatta avsedda för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 1 december 2026.",
-          "summary": "SenSura Mio 1-dels tömbar Convex Flip är tömbara endelsbandage med en konvex hudskyddsplatta avsedda för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 1 december 2026.",
-          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-11-20-sensura-mio-1-dels-tombar-convex-flip-ingar-i-hogkostnadsskyddet.html"
-        },
-        {
-          "source": "TLV",
-          "date": "2026-11-18",
-          "update_type": "other",
-          "status": "TLV Beslut",
-          "title": "SenSura® Mio 1-dels sluten Convex Flip    ingår i högkostnadsskyddet",
-          "indication": "SenSura® Mio 1-dels sluten Convex Flip är slutna endelsbandage med konvex hudskyddsplatta och förstansat hål avsedd för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 1 december 2026.",
-          "summary": "SenSura® Mio 1-dels sluten Convex Flip är slutna endelsbandage med konvex hudskyddsplatta och förstansat hål avsedd för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 1 december 2026.",
-          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-11-18-sensurar-mio-1-dels-sluten-convex-flip----ingar-i-hogkostnadsskyddet.html"
-        },
-        {
-          "source": "TLV",
-          "date": "2026-11-13",
-          "update_type": "other",
-          "status": "TLV Beslut",
-          "title": "SenSura® Mio 1-dels sluten Convex Flip ingår i högkostnadsskyddet",
-          "indication": "SenSura® Mio 1-dels sluten Convex Flip är endelsbandage med konvex hudskyddsplattan avsedda för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 24 november 2026.",
-          "summary": "SenSura® Mio 1-dels sluten Convex Flip är endelsbandage med konvex hudskyddsplattan avsedda för personer med stomi. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 24 november 2026.",
-          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-11-13-sensurar-mio-1-dels-sluten-convex-flip-ingar-i-hogkostnadsskyddet.html"
-        },
-        {
-          "source": "TLV",
-          "date": "2026-03-02",
-          "update_type": "new_drug",
-          "status": "Ingår i förmånen",
-          "title": "SenSura Mio 2-delspåse sluten i åtta olika utföranden ingår i läkemedelsförmånerna",
-          "indication": "SenSura Mio 2-delspåse sluten är ett slutet tvådelsbandage med kopplingsring. Stomibandaget består av en sluten stomipåse och en hudskyddsplatta som kopplas ihop med en kopplingsring.",
-          "summary": "SenSura Mio 2-delspåse sluten är ett slutet tvådelsbandage med kopplingsring. Stomibandaget består av en sluten stomipåse och en hudskyddsplatta som kopplas ihop med en kopplingsring.",
-          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-03-02-sensura-mio-2-delspase-sluten-i-atta-olika-utforanden-ingar-i-lakemedelsformanerna.html"
-        },
-        {
-          "source": "TLV",
-          "date": "2025-12-04",
-          "update_type": "new_drug",
-          "status": "Ingår i förmånen",
-          "title": "Sensura Mio 1-dels Convex sluten stomipåse ingår i läkemedelsförmånerna",
-          "indication": "TLV bedömer att förutsättningarna för subvention är uppfyllda. Sensura Mio 1-dels Convex sluten stomipåse med uppklippbart respektive förstansat hål ingår i läkemedelsförmånerna från och med den 17 december 2025.",
-          "summary": "TLV bedömer att förutsättningarna för subvention är uppfyllda. Sensura Mio 1-dels Convex sluten stomipåse med uppklippbart respektive förstansat hål ingår i läkemedelsförmånerna från och med den 17 december 2025.",
-          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2025-12-04-sensura-mio-1-dels-convex-sluten-stomipase-ingar-i-lakemedelsformanerna.html"
         }
       ]
     },
@@ -1224,26 +1728,6 @@
           "indication": "bröstcancer, HER2-låg, HER2-ultralåg",
           "summary": "NT-rådet: Kan användas. bröstcancer, HER2-låg, HER2-ultralåg",
           "url": "https://samverkanlakemedel.se/download/18.1c7a4f2d19d24d22f1d27251/1775535970018/Enhertu%20vid%20HER2-l%C3%A5g_HER2-ultral%C3%A5g%20br%C3%B6stcancer%202026-04-02.pdf"
-        },
-        {
-          "source": "NT_RADET",
-          "date": "2025-11-24",
-          "update_type": "new_indication",
-          "status": "Kan användas",
-          "title": "Enhertu – Kan användas",
-          "indication": "lungcancer, icke-småcellig, HER2-muterad",
-          "summary": "NT-rådet: Kan användas. lungcancer, icke-småcellig, HER2-muterad",
-          "url": "https://samverkanlakemedel.se/download/18.d6c079f19a7bc519f41d7b4/1763993634325/Enhertu%20vid%20NSCLC%202025-11-24.pdf"
-        },
-        {
-          "source": "NT_RADET",
-          "date": "2025-11-24",
-          "update_type": "new_indication",
-          "status": "Bör användas",
-          "title": "Enhertu – Bör användas",
-          "indication": "magsäckscancer, HER2-positiv",
-          "summary": "NT-rådet: Bör användas. magsäckscancer, HER2-positiv",
-          "url": "https://samverkanlakemedel.se/download/18.d6c079f19a7bc519f41d7bd/1763993804707/Enhertu%20vid%20mags%C3%A4ckscancer%202025-11-24.pdf"
         }
       ]
     },
@@ -3876,30 +4360,6 @@
       ]
     },
     {
-      "id": "sub-nusinersen-sodium",
-      "drug_name": "Spinraza",
-      "active_substance": "nusinersen sodium",
-      "atc_code": "M09",
-      "therapeutic_area": "Other nervous system drugs",
-      "latest_date": "2026-11-10",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-10",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Spinraza (nusinersen sodium) – Authorised",
-          "indication": "Spinraza is indicated for the treatment of 5q Spinal Muscular Atrophy.",
-          "summary": "EMA status: Authorised. MA date: 2017-05-30.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/spinraza"
-        }
-      ]
-    },
-    {
       "id": "sub-epinephrine",
       "drug_name": "Eurneffy",
       "active_substance": "epinephrine",
@@ -4776,40 +5236,6 @@
       ]
     },
     {
-      "id": "sub-single-stranded-5-capped-messenger-rna-produced-using-a-cell-free-in-vitro-transcription-from-the-corresponding-dna-templates-encoding-the-viral-spike-protein-of-sars-cov-2",
-      "drug_name": "Comirnaty",
-      "active_substance": "single-stranded, 5’-capped messenger RNA produced using a cell-free in vitro transcription from the corresponding DNA templates, encoding the viral spike (S) protein of SARS-CoV-2",
-      "atc_code": "J07BN01",
-      "therapeutic_area": "Vaccines",
-      "latest_date": "2026-11-06",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-06",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Comirnaty (single-stranded, 5’-capped messenger RNA produced using a cell-free in vitro transcription from the corresponding DNA templates, encoding the viral spike (S) protein of SARS-CoV-2) – Authorised",
-          "indication": "Comirnaty LP.8.1 dispersion for injection is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in individuals 6 months of age and older. The use of this vaccine should be in accordance with official recommendations. Comirnaty XFG dispersion for injection is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in individuals 6 months of age and older.&nbsp; The use of this vaccine should be in accordance with official recommendations.",
-          "summary": "EMA status: Authorised. MA date: 2020-12-21.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/comirnaty"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-30",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Spikevax (previously COVID-19 Vaccine Moderna) (single-stranded, 5’-capped messenger RNA (mRNA) produced using a cell-free in vitro transcription from the corresponding DNA templates, encoding the viral spike (S) protein of SARS-CoV-2) – Authorised",
-          "indication": "Spikevax is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in individuals 6 months of age and older. The use of this vaccine should be in accordance with official recommendations. Spikevax bivalent Original/Omicron BA.1 is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in individuals 6 years of age and older who have previously received at least a primary vaccination course against COVID-19. The use of this vaccine should be in accordance with official recommendations. Spikevax bivalent Original/Omicron BA.4-5 is indicated for active immu",
-          "summary": "EMA status: Authorised. MA date: 2021-01-06.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/spikevax"
-        }
-      ]
-    },
-    {
       "id": "sub-vedolizumab",
       "drug_name": "Entyvio",
       "active_substance": "vedolizumab",
@@ -5242,140 +5668,6 @@
           "indication": "Siklos is indicated for the prevention of recurrent painful vaso-occlusive crises including acute chest syndrome in paediatric and adult patients suffering from symptomatic sickle-cell syndrome.",
           "summary": "EMA status: Authorised. MA date: 2007-06-29.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/siklos"
-        }
-      ]
-    },
-    {
-      "id": "sub-pegfilgrastim",
-      "drug_name": "Nylaspeg",
-      "active_substance": "pegfilgrastim",
-      "atc_code": "L03AA13",
-      "therapeutic_area": "Immunostimulants",
-      "latest_date": "2026-11-04",
-      "latest_update_type": "new_drug",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-04",
-          "update_type": "new_drug",
-          "status": "Authorised",
-          "title": "Nylaspeg (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).&nbsp;",
-          "summary": "EMA status: Authorised. MA date: 2026-11-04.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/nylaspeg"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-21",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Cavoley (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2026-09-25.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cavoley"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-02",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Ziextenzo (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2018-11-22.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ziextenzo"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-17",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Grasustek (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2019-06-20.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/grasustek"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-08-14",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Fulphila (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2018-11-20.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/fulphila"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-07-14",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Dyrupeg (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2025-03-28.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/dyrupeg"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-06-30",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Pelgraz (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2018-09-21.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pelgraz"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-03-18",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Cegfila (previously Pegfilgrastim Mundipharma) (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2019-12-19.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cegfila"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-03-18",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Pelmeg (pegfilgrastim) – Authorised",
-          "indication": "To reduce the duration of neutropenia and the incidence of febrile neutropenia due to chemotherapy.",
-          "summary": "EMA status: Authorised. MA date: 2018-11-20.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pelmeg"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-02-24",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Vivlipeg (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2025-08-18.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vivlipeg"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-01-20",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Nyvepria (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2020-11-18.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/nyvepria"
-        },
-        {
-          "source": "EMA",
-          "date": "2025-12-08",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Neulasta (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2002-08-22.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/neulasta"
         }
       ]
     },
@@ -8835,16 +9127,6 @@
           "indication": "Replacement therapy in adults, and children and adolescents (0-18 years) in:  primary immunodeficiency (PID) syndromes with impaired antibody production; hypogammaglobulinaemia and recurrent bacterial infections in patients with chronic lymphocytic leukaemia, in whom prophylactic antibiotics have failed; hypogammaglobulinaemia and recurrent bacterial infections in plateau-phase-multiple-myeloma patients who have failed to respond to pneumococcal immunisation; hypogammaglobulinaemia in patients after allogeneic haematopoietic-stem-cell transplantation (HSCT); congenital AIDS with recurrent bact",
           "summary": "EMA status: Authorised. MA date: 2008-04-24.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/privigen"
-        },
-        {
-          "source": "EMA",
-          "date": "2025-11-24",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Hizentra (human normal immunoglobulin (SCIg)) – Authorised",
-          "indication": "Replacement therapy in adults, children and adolescents (0-18 years) in: - Primary immunodeficiency syndromes with impaired antibody production (see section 4.4). - Secondary immunodeficiencies (SID) in patients who suffer from severe or recurrent infections, ineffective antimicrobial treatment and either proven specific antibody failure (PSAF)* or serum IgG level of &lt;4 g/l. *PSAF = failure to mount at least a 2-fold rise in IgG antibody titre to pneumococcal polysaccharide and polypeptide antigen vaccines. Immunomodulatory therapy in adults, children and adolescents (0-18 years): - Hizentr",
-          "summary": "EMA status: Authorised. MA date: 2011-04-14.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/hizentra"
         }
       ]
     },
@@ -13198,40 +13480,6 @@
       ]
     },
     {
-      "id": "sub-ambrisentan",
-      "drug_name": "Ambrisentan Viatris (previously Ambrisentan Mylan)",
-      "active_substance": "ambrisentan",
-      "atc_code": "C02KX02",
-      "therapeutic_area": "Antihypertensives",
-      "latest_date": "2026-09-03",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-09-03",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Ambrisentan Viatris (previously Ambrisentan Mylan) (ambrisentan) – Authorised",
-          "indication": "Ambrisentan Mylan is indicated for the treatment of pulmonary arterial hypertension (PAH) in adult patients of WHO Functional Class (FC) II to III, including use in combination treatment. Efficacy has been shown in idiopathic PAH (IPAH) and in PAH associated with connective tissue disease. Ambrisentan Mylan is indicated for the treatment of pulmonary arterial hypertension (PAH) in adult patients of WHO Functional Class (FC) II to III, including use in combination treatment. Efficacy has been shown in idiopathic PAH (IPAH) and in PAH associated with connective tissue disease.",
-          "summary": "EMA status: Authorised. MA date: 2019-06-20.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ambrisentan-viatris"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-04-22",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Volibris (ambrisentan) – Authorised",
-          "indication": "Volibris is indicated for treatment of pulmonary arterial hypertension (PAH) in adult patients of WHO Functional Class (FC) II to III, including use in combination treatment (see section 5.1).  Efficacy has been shown in idiopathic PAH (IPAH) and in PAH associated with connective tissue disease. Volibris is indicated for treatment of PAH in adolescents and children (aged 8 to less than 18 years) of WHO Functional Class (FC) II to III including use in combination treatment. Efficacy has been shown in IPAH, familial, corrected congenital and in PAH associated with connective tissue disease (see ",
-          "summary": "EMA status: Authorised. MA date: 2008-04-21.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/volibris"
-        }
-      ]
-    },
-    {
       "id": "sub-emtricitabine-tenofovir-disoproxil-phosphate",
       "drug_name": "Emtricitabine/Tenofovir disoproxil Zentiva",
       "active_substance": "emtricitabine;tenofovir disoproxil phosphate",
@@ -14470,30 +14718,6 @@
           "indication": "Contour Comfort är pennkanyler för engångsbruk avsedda att användas tillsammans med en injektionspenna för att tillföra kroppen läkemedel genom injektion. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 september 2026.",
           "summary": "Contour Comfort är pennkanyler för engångsbruk avsedda att användas tillsammans med en injektionspenna för att tillföra kroppen läkemedel genom injektion. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 september 2026.",
           "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-08-24-contour-comfort-pennkanyler-ingar-i-hogkostnadsskyddet.html"
-        }
-      ]
-    },
-    {
-      "id": "sub-nipocalimab",
-      "drug_name": "Imaavy",
-      "active_substance": "nipocalimab",
-      "atc_code": "L04AL03",
-      "therapeutic_area": "Immunosuppressants",
-      "latest_date": "2026-08-21",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-08-21",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Imaavy (nipocalimab) – Authorised",
-          "indication": "Imaavy is indicated as an add-on to standard therapy for the treatment of generalised myasthenia gravis (gMG) in adult and adolescent patients aged 12 years of age and older who are anti‑acetylcholine receptor (AChR) or anti-muscle-specific tyrosine kinase (MuSK) antibody positive.",
-          "summary": "EMA status: Authorised. MA date: 2025-11-28.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/imaavy"
         }
       ]
     },
@@ -20719,30 +20943,6 @@
       ]
     },
     {
-      "id": "sub-pegvaliase",
-      "drug_name": "Palynziq",
-      "active_substance": "pegvaliase",
-      "atc_code": "A16AB19",
-      "therapeutic_area": "Phenylketonurias",
-      "latest_date": "2026-05-21",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-05-21",
-          "update_type": "new_indication",
-          "status": "Positive",
-          "title": "Palynziq (pegvaliase) – Positive",
-          "indication": "Phenylketonurias",
-          "summary": "EMA post-authorisation (Positive).",
-          "url": "https://www.ema.europa.eu/en/medicines/human/variation/palynziq"
-        }
-      ]
-    },
-    {
       "id": "sub-recombinant-human-c1-inhibitor",
       "drug_name": "Ruconest",
       "active_substance": "recombinant human C1-inhibitor",
@@ -21422,40 +21622,6 @@
       ]
     },
     {
-      "id": "sub-finerenone",
-      "drug_name": "Kerendia",
-      "active_substance": "finerenone",
-      "atc_code": "C09",
-      "therapeutic_area": "Agents acting on the renin-angiotensin system",
-      "latest_date": "2026-05-07",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-05-07",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Kerendia (finerenone) – Authorised",
-          "indication": "Kerendia is indicated for the treatment of chronic kidney disease (with albuminuria) associated with type 2 diabetes in adults. For study results with respect to renal and cardiovascular events, see section 5.1. Kerendia is indicated for the treatment of symptomatic chronic heart failure with left ventricular ejection fraction (LVEF) ≥ 40% in adults.",
-          "summary": "EMA status: Authorised. MA date: 2022-02-16.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kerendia"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-01-29",
-          "update_type": "new_indication",
-          "status": "Positive",
-          "title": "Kerendia (finerenone) – Positive",
-          "indication": "Renal Insufficiency, Chronic;Diabetes Mellitus, Type 2;Heart Failure",
-          "summary": "EMA post-authorisation (Positive).",
-          "url": "https://www.ema.europa.eu/en/medicines/human/variation/kerendia"
-        }
-      ]
-    },
-    {
       "id": "sub-catumaxomab",
       "drug_name": "Korjuny",
       "active_substance": "catumaxomab",
@@ -21666,7 +21832,6 @@
       "latest_date": "2026-04-29",
       "latest_update_type": "new_indication",
       "sources_present": [
-        "EMA",
         "NT_RADET"
       ],
       "events": [
@@ -21679,16 +21844,6 @@
           "indication": "anemi vid myelodysplastiskt syndrom (MDS)",
           "summary": "NT-rådet: Använd inte. anemi vid myelodysplastiskt syndrom (MDS)",
           "url": "https://samverkanlakemedel.se/download/18.21129c6b19ddcda673922c0b/1778133747605/Reblozyl%20vid%20MDS%202026-04-29_%C3%B6versyn.pdf"
-        },
-        {
-          "source": "EMA",
-          "date": "2025-11-24",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Reblozyl (Luspatercept) – Authorised",
-          "indication": "Reblozyl is indicated in adults for the treatment of transfusion-dependent anaemia due to very low, low and intermediate-risk myelodysplastic syndromes (MDS).Reblozyl is indicated in adults for the treatment of anaemia associated with transfusion dependent and non transfusion dependent beta thalassaemia.&nbsp; Reblozyl is indicated in adults for the treatment of transfusion-dependent anaemia due to very low, low and intermediate-risk myelodysplastic syndromes (MDS).Reblozyl is indicated in adults for the treatment of anaemia associated with transfusion dependent and non transfusion dependent b",
-          "summary": "EMA status: Authorised. MA date: 2020-06-25.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/reblozyl"
         }
       ]
     },
@@ -27402,30 +27557,6 @@
       ]
     },
     {
-      "id": "sub-tebentafusp",
-      "drug_name": "Kimmtrak",
-      "active_substance": "tebentafusp",
-      "atc_code": "L01XX75",
-      "therapeutic_area": "Antineoplastic agents",
-      "latest_date": "2025-12-09",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2025-12-09",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Kimmtrak (tebentafusp) – Authorised",
-          "indication": "Kimmtrak is indicated as monotherapy for the treatment of human leukocyte antigen (HLA)-A*02:01-positive adult patients with unresectable or metastatic uveal melanoma.",
-          "summary": "EMA status: Authorised. MA date: 2022-04-01.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kimmtrak"
-        }
-      ]
-    },
-    {
       "id": "sub-decitabine",
       "drug_name": "Dacogen",
       "active_substance": "decitabine",
@@ -28120,30 +28251,6 @@
           "indication": "Alkacit (kaliumcitrat) som används för att behandla och förebygga njursten ingår i högkostnadsskyddet. Beslutet gäller från den 25 november 2025.",
           "summary": "Alkacit (kaliumcitrat) som används för att behandla och förebygga njursten ingår i högkostnadsskyddet. Beslutet gäller från den 25 november 2025.",
           "url": "https://www.tlv.se/beslut/beslut-lakemedel/generell-subvention/arkiv/2025-11-25-alkacit-ingar-i-hogkostnadsskyddet.html"
-        }
-      ]
-    },
-    {
-      "id": "name-calquence",
-      "drug_name": "Calquence",
-      "active_substance": "",
-      "atc_code": "",
-      "therapeutic_area": "Other / Unclassified",
-      "latest_date": "2025-11-24",
-      "latest_update_type": "new_drug",
-      "sources_present": [
-        "TLV"
-      ],
-      "events": [
-        {
-          "source": "TLV",
-          "date": "2025-11-24",
-          "update_type": "new_drug",
-          "status": "Begränsad subvention",
-          "title": "Calquence ingår i högkostnadsskyddet med begränsning för ytterligare en patientgrupp",
-          "indication": "Calquence (akalabrutinib) ingår sedan tidigare i högkostnadsskyddet med begränsad subvention. Nu subventioneras Calquence även som tidsbegränsad behandling i kombination med venetoklax för patienter med tidigare obehandlad blodcancer kronisk lymfatisk leukemi.",
-          "summary": "Calquence (akalabrutinib) ingår sedan tidigare i högkostnadsskyddet med begränsad subvention. Nu subventioneras Calquence även som tidsbegränsad behandling i kombination med venetoklax för patienter med tidigare obehandlad blodcancer kronisk lymfatisk leukemi.",
-          "url": "https://www.tlv.se/beslut/beslut-lakemedel/begransad-subvention/arkiv/2025-11-24-calquence-ingar-i-hogkostnadsskyddet-med-begransning-for-ytterligare-en-patientgrupp.html"
         }
       ]
     }
