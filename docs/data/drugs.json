@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-25T17:40:36Z",
+  "generated_at": "2026-11-26T01:59:15Z",
   "counts": {
-    "total": 981,
-    "ema": 802,
-    "tlv": 152,
+    "total": 975,
+    "ema": 801,
+    "tlv": 147,
     "nt_radet": 50
   },
   "drugs": [
@@ -5770,16 +5770,6 @@
           "indication": "Treatment of a haemodynamically significant patent ductus arteriosus in preterm newborn infants less than 34 weeks of gestational age",
           "summary": "EMA status: Authorised. MA date: 2024-02-16.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vlustozik"
-        },
-        {
-          "source": "EMA",
-          "date": "2025-11-25",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Pedea (Ibuprofen) – Authorised",
-          "indication": "Treatment of a haemodynamically significant patent ductus arteriosus in preterm newborn infants less than 34 weeks of gestational age.",
-          "summary": "EMA status: Authorised. MA date: 2004-07-28.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pedea"
         }
       ]
     },
@@ -7758,16 +7748,6 @@
           "indication": "Zefylti is indicated for the reduction in the duration of neutropenia and the incidence of febrile neutropenia in patients treated with established cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes) and for the reduction in the duration of neutropenia in patients undergoing myeloablative therapy followed by bone marrow transplantation considered to be at increased risk of prolonged severe neutropenia.&nbsp;The safety and efficacy of Zefylti are similar in adults and children receiving cytotoxic chemotherapy.&nbsp;Zefylti is ind",
           "summary": "EMA status: Authorised. MA date: 2025-02-12.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zefylti"
-        },
-        {
-          "source": "EMA",
-          "date": "2025-11-25",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Accofil (filgrastim) – Authorised",
-          "indication": "Accofil is indicated for the reduction in the duration of neutropenia and the incidence of febrile neutropenia in patients treated with established cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes) and for the reduction in the duration of neutropenia in patients undergoing myeloablative therapy followed by bone marrow transplantation considered to be at increased risk of prolonged severe neutropenia. The safety and efficacy of Accofil are similar in adults and children receiving cytotoxic chemotherapy. Accofil is indicated for",
-          "summary": "EMA status: Authorised. MA date: 2014-09-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/accofil"
         }
       ]
     },
@@ -9401,16 +9381,6 @@
           "indication": "Breast Neoplasms;Neoplasm Metastasis",
           "summary": "EMA post-authorisation (Positive).",
           "url": "https://www.ema.europa.eu/en/medicines/human/variation/tukysa"
-        },
-        {
-          "source": "EMA",
-          "date": "2025-11-25",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Tukysa (tucatinib) – Authorised",
-          "indication": "Tukysa is indicated in combination with trastuzumab and capecitabine for the treatment of adult patients with HER2?positive locally advanced or metastatic breast cancer who have received at least 2 prior anti-HER2 treatment regimens.",
-          "summary": "EMA status: Authorised. MA date: 2021-02-11.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tukysa"
         }
       ]
     },
@@ -11242,16 +11212,6 @@
           "indication": "Alhemo (koncizumab) subventioneras nu även för patienter med hemofili (blödarsjuka) B som inte har utvecklat antikroppar mot tidigare behandling. Beslutet gäller från och med 1 oktober 2026.",
           "summary": "Alhemo (koncizumab) subventioneras nu även för patienter med hemofili (blödarsjuka) B som inte har utvecklat antikroppar mot tidigare behandling. Beslutet gäller från och med 1 oktober 2026.",
           "url": "https://www.tlv.se/beslut/beslut-lakemedel/begransad-subvention/arkiv/2026-10-02-alhemo-ingar-i-hogkostnadsskyddet-med-utokad-subvention.html"
-        },
-        {
-          "source": "TLV",
-          "date": "2025-11-25",
-          "update_type": "other",
-          "status": "Begränsad subvention",
-          "title": "Alhemo ingår i högkostnadsskyddet med begränsning",
-          "indication": "Alhemo (koncizumab) för förebyggande behandling av hemofili, ofta kallad blödarsjuka, ingår i högkostnadsskyddet med begränsning från och med den 25 november 2025. Begränsningen innebär att läkemedlet endast ingår i högkostnadsskyddet för patienter med hemofili B med inhibitorer, där immuntolerans-induktionsbehandling (ITI-behandling) inte har lyckats upphäva inhibitorerna.",
-          "summary": "Alhemo (koncizumab) för förebyggande behandling av hemofili, ofta kallad blödarsjuka, ingår i högkostnadsskyddet med begränsning från och med den 25 november 2025. Begränsningen innebär att läkemedlet endast ingår i högkostnadsskyddet för patienter med hemofili B med inhibitorer, där immuntolerans-induktionsbehandling (ITI-behandling) inte har lyckats upphäva inhibitorerna.",
-          "url": "https://www.tlv.se/beslut/beslut-lakemedel/begransad-subvention/arkiv/2025-11-25-alhemo-ingar-i-hogkostnadsskyddet-med-begransning.html"
         }
       ]
     },
@@ -28107,150 +28067,6 @@
           "indication": "For patients with type-2 diabetes mellitus:  Efficib is indicated as an adjunct to diet and exercise to improve glycaemic control in patients inadequately controlled on their maximal tolerated dose of metformin alone or those already being treated with the combination of sitagliptin and metformin. Efficib is indicated in combination with a sulphonylurea (i.e. triple combination therapy) as an adjunct to diet and exercise in patients inadequately controlled on their maximal tolerated dose of metformin and a sulphonylurea. Efficib is indicated as triple combination therapy with a PPAR agonist (i",
           "summary": "EMA status: Authorised. MA date: 2008-07-15.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/efficib"
-        }
-      ]
-    },
-    {
-      "id": "sub-nonacog-beta-pegol",
-      "drug_name": "Refixia",
-      "active_substance": "nonacog beta pegol",
-      "atc_code": "B02BD04",
-      "therapeutic_area": "Antihemorrhagics",
-      "latest_date": "2025-11-25",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2025-11-25",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Refixia (nonacog beta pegol) – Authorised",
-          "indication": "Treatment and prophylaxis of bleeding in patients with haemophilia B (congenital factor IX deficiency). Refixia can be used for all age groups.",
-          "summary": "EMA status: Authorised. MA date: 2017-06-02.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/refixia"
-        }
-      ]
-    },
-    {
-      "id": "name-carblit",
-      "drug_name": "Carblit",
-      "active_substance": "",
-      "atc_code": "",
-      "therapeutic_area": "Other / Unclassified",
-      "latest_date": "2025-11-25",
-      "latest_update_type": "other",
-      "sources_present": [
-        "TLV"
-      ],
-      "events": [
-        {
-          "source": "TLV",
-          "date": "2025-11-25",
-          "update_type": "other",
-          "status": "TLV Beslut",
-          "title": "Carblit ingår i högkostnadsskyddet",
-          "indication": "Carblit (litium) är ett läkemedel som behandlar mani (onormal upprymdhet) och som används som antimanisk och förebyggande behandling vid bipolär sjukdom. Det kan också användas som tilläggsbehandling vid egentlig depression. Läkemedlet ingår i högkostnadsskyddet från och med den 25 november 2025.",
-          "summary": "Carblit (litium) är ett läkemedel som behandlar mani (onormal upprymdhet) och som används som antimanisk och förebyggande behandling vid bipolär sjukdom. Det kan också användas som tilläggsbehandling vid egentlig depression. Läkemedlet ingår i högkostnadsskyddet från och med den 25 november 2025.",
-          "url": "https://www.tlv.se/beslut/beslut-lakemedel/generell-subvention/arkiv/2025-11-25-carblit-ingar-i-hogkostnadsskyddet.html"
-        }
-      ]
-    },
-    {
-      "id": "name-terrosa",
-      "drug_name": "Terrosa",
-      "active_substance": "",
-      "atc_code": "",
-      "therapeutic_area": "Other / Unclassified",
-      "latest_date": "2025-11-25",
-      "latest_update_type": "new_drug",
-      "sources_present": [
-        "TLV"
-      ],
-      "events": [
-        {
-          "source": "TLV",
-          "date": "2025-11-25",
-          "update_type": "new_drug",
-          "status": "Ingår i förmånen",
-          "title": "Terrosa får ändrad subventionsbegränsning",
-          "indication": "Terrosa (teriparatid) för behandling av benskörhet (osteoporos) med hög frakturrisk ingår sedan tidigare i högkostnadsskyddet. Nu subventioneras Terrosa i upp till 24 månader och begränsningstexten ändras för att stämma bättre överens med nuvarande behandlingsriktlinjer. Beslutet gäller från och med 25 november 2025.",
-          "summary": "Terrosa (teriparatid) för behandling av benskörhet (osteoporos) med hög frakturrisk ingår sedan tidigare i högkostnadsskyddet. Nu subventioneras Terrosa i upp till 24 månader och begränsningstexten ändras för att stämma bättre överens med nuvarande behandlingsriktlinjer. Beslutet gäller från och med 25 november 2025.",
-          "url": "https://www.tlv.se/beslut/beslut-lakemedel/begransad-subvention/arkiv/2025-11-25-terrosa-far-andrad-subventionsbegransning.html"
-        }
-      ]
-    },
-    {
-      "id": "name-talzenna",
-      "drug_name": "Talzenna",
-      "active_substance": "",
-      "atc_code": "",
-      "therapeutic_area": "Other / Unclassified",
-      "latest_date": "2025-11-25",
-      "latest_update_type": "new_drug",
-      "sources_present": [
-        "TLV"
-      ],
-      "events": [
-        {
-          "source": "TLV",
-          "date": "2025-11-25",
-          "update_type": "new_drug",
-          "status": "Begränsad subvention",
-          "title": "Talzenna ingår i högkostnadsskyddet med utökad förmån",
-          "indication": "Talzenna (talazoparib) ingår sedan tidigare i högkostnadsskyddet med begränsad subvention. Nu subventioneras Talzenna även tillsammans med läkemedlet Xtandi (enzalutamid) för vuxna patienter med spridd prostatacancer som inte längre svarar på hormonbehandling (mCRPC) där cellgiftsbehandling inte är motiverad och när behandling med läkemedlet abirateron inte är ett lämpligt alternativ. Beslutet gäller från och med den 25 november 2025.",
-          "summary": "Talzenna (talazoparib) ingår sedan tidigare i högkostnadsskyddet med begränsad subvention. Nu subventioneras Talzenna även tillsammans med läkemedlet Xtandi (enzalutamid) för vuxna patienter med spridd prostatacancer som inte längre svarar på hormonbehandling (mCRPC) där cellgiftsbehandling inte är motiverad och när behandling med läkemedlet abirateron inte är ett lämpligt alternativ. Beslutet gäller från och med den 25 november 2025.",
-          "url": "https://www.tlv.se/beslut/beslut-lakemedel/begransad-subvention/arkiv/2025-11-25-talzenna-ingar-i-hogkostnadsskyddet-med-utokad-forman.html"
-        }
-      ]
-    },
-    {
-      "id": "name-bylvay",
-      "drug_name": "Bylvay",
-      "active_substance": "",
-      "atc_code": "",
-      "therapeutic_area": "Other / Unclassified",
-      "latest_date": "2025-11-25",
-      "latest_update_type": "other",
-      "sources_present": [
-        "TLV"
-      ],
-      "events": [
-        {
-          "source": "TLV",
-          "date": "2025-11-25",
-          "update_type": "other",
-          "status": "TLV Beslut",
-          "title": "Bylvay ingår i högkostnadsskyddet",
-          "indication": "Bylvay (odevixibat) behandlar en grupp av ovanliga leversjukdomar som kallas för progressiv familjär intrahepatisk kolestas (PFIC). Bylvay ingår i högkostnadsskyddet från och med 1 december 2025.",
-          "summary": "Bylvay (odevixibat) behandlar en grupp av ovanliga leversjukdomar som kallas för progressiv familjär intrahepatisk kolestas (PFIC). Bylvay ingår i högkostnadsskyddet från och med 1 december 2025.",
-          "url": "https://www.tlv.se/beslut/beslut-lakemedel/generell-subvention/arkiv/2025-11-25-bylvay-ingar-i-hogkostnadsskyddet.html"
-        }
-      ]
-    },
-    {
-      "id": "name-alkacit",
-      "drug_name": "Alkacit",
-      "active_substance": "",
-      "atc_code": "",
-      "therapeutic_area": "Other / Unclassified",
-      "latest_date": "2025-11-25",
-      "latest_update_type": "other",
-      "sources_present": [
-        "TLV"
-      ],
-      "events": [
-        {
-          "source": "TLV",
-          "date": "2025-11-25",
-          "update_type": "other",
-          "status": "TLV Beslut",
-          "title": "Alkacit ingår i högkostnadsskyddet",
-          "indication": "Alkacit (kaliumcitrat) som används för att behandla och förebygga njursten ingår i högkostnadsskyddet. Beslutet gäller från den 25 november 2025.",
-          "summary": "Alkacit (kaliumcitrat) som används för att behandla och förebygga njursten ingår i högkostnadsskyddet. Beslutet gäller från den 25 november 2025.",
-          "url": "https://www.tlv.se/beslut/beslut-lakemedel/generell-subvention/arkiv/2025-11-25-alkacit-ingar-i-hogkostnadsskyddet.html"
         }
       ]
     }
