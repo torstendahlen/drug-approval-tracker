@@ -1,12 +1,1434 @@
 {
-  "generated_at": "2026-11-26T01:59:15Z",
+  "generated_at": "2026-11-26T17:24:08Z",
   "counts": {
-    "total": 975,
-    "ema": 801,
-    "tlv": 147,
+    "total": 977,
+    "ema": 802,
+    "tlv": 148,
     "nt_radet": 50
   },
   "drugs": [
+    {
+      "id": "sub-pegfilgrastim",
+      "drug_name": "Nylaspeg",
+      "active_substance": "pegfilgrastim",
+      "atc_code": "L03AA13",
+      "therapeutic_area": "Immunostimulants",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Fulphila (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2018-11-20.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/fulphila"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-25",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Dyrupeg (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2025-03-28.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/dyrupeg"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-04",
+          "update_type": "new_drug",
+          "status": "Authorised",
+          "title": "Nylaspeg (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).&nbsp;",
+          "summary": "EMA status: Authorised. MA date: 2026-11-04.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/nylaspeg"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-21",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Cavoley (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2026-09-25.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cavoley"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-02",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Ziextenzo (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2018-11-22.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ziextenzo"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-17",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Grasustek (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2019-06-20.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/grasustek"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-08-14",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Fulphila (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2018-11-20.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/fulphila"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-07-14",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Dyrupeg (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2025-03-28.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/dyrupeg"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-06-30",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Pelgraz (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2018-09-21.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pelgraz"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-03-18",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Cegfila (previously Pegfilgrastim Mundipharma) (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2019-12-19.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cegfila"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-03-18",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Pelmeg (pegfilgrastim) – Authorised",
+          "indication": "To reduce the duration of neutropenia and the incidence of febrile neutropenia due to chemotherapy.",
+          "summary": "EMA status: Authorised. MA date: 2018-11-20.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pelmeg"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-02-24",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Vivlipeg (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2025-08-18.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vivlipeg"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-01-20",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Nyvepria (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2020-11-18.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/nyvepria"
+        },
+        {
+          "source": "EMA",
+          "date": "2025-12-08",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Neulasta (pegfilgrastim) – Authorised",
+          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
+          "summary": "EMA status: Authorised. MA date: 2002-08-22.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/neulasta"
+        }
+      ]
+    },
+    {
+      "id": "sub-finerenone",
+      "drug_name": "Kerendia",
+      "active_substance": "finerenone",
+      "atc_code": "C09",
+      "therapeutic_area": "Agents acting on the renin-angiotensin system",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Kerendia (finerenone) – Authorised",
+          "indication": "Kerendia is indicated for the treatment of chronic kidney disease (with albuminuria) associated with type 2 diabetes in adults. For study results with respect to renal and cardiovascular events, see section 5.1. Kerendia is indicated for the treatment of symptomatic chronic heart failure with left ventricular ejection fraction (LVEF) ≥ 40% in adults.",
+          "summary": "EMA status: Authorised. MA date: 2022-02-16.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kerendia"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-25",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Kerendia (finerenone) – Authorised",
+          "indication": "Kerendia is indicated for the treatment of chronic kidney disease (with albuminuria) associated with type 2 diabetes in adults. For study results with respect to renal and cardiovascular events, see section 5.1. Kerendia is indicated for the treatment of symptomatic chronic heart failure with left ventricular ejection fraction (LVEF) ≥ 40% in adults.",
+          "summary": "EMA status: Authorised. MA date: 2022-02-16.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kerendia"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-05-07",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Kerendia (finerenone) – Authorised",
+          "indication": "Kerendia is indicated for the treatment of chronic kidney disease (with albuminuria) associated with type 2 diabetes in adults. For study results with respect to renal and cardiovascular events, see section 5.1. Kerendia is indicated for the treatment of symptomatic chronic heart failure with left ventricular ejection fraction (LVEF) ≥ 40% in adults.",
+          "summary": "EMA status: Authorised. MA date: 2022-02-16.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kerendia"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-01-29",
+          "update_type": "new_indication",
+          "status": "Positive",
+          "title": "Kerendia (finerenone) – Positive",
+          "indication": "Renal Insufficiency, Chronic;Diabetes Mellitus, Type 2;Heart Failure",
+          "summary": "EMA post-authorisation (Positive).",
+          "url": "https://www.ema.europa.eu/en/medicines/human/variation/kerendia"
+        }
+      ]
+    },
+    {
+      "id": "sub-ustekinumab",
+      "drug_name": "Yesintek",
+      "active_substance": "ustekinumab",
+      "atc_code": "L04AC05",
+      "therapeutic_area": "Immunosuppressants",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Steqeyma (ustekinumab) – Authorised",
+          "indication": "Plaque psoriasis&nbsp;&nbsp;Steqeyma is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A).&nbsp; Paediatric plaque psoriasis&nbsp;&nbsp;Steqeyma is indicated for the treatment of moderate to severe plaque psoriasis in children and adolescent patients from the age of 6 years and older, who are inadequately controlled by, or are intolerant to, other systemic therapies or phototherapies.",
+          "summary": "EMA status: Authorised. MA date: 2024-08-22.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/steqeyma"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-19",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Yesintek (ustekinumab) – Authorised",
+          "indication": "Plaque psoriasis  Yesintek is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A).  Paediatric plaque psoriasis  Yesintek is indicated for the treatment of moderate to severe plaque psoriasis in children and adolescent patients from the age of 6 years and older, who are inadequately controlled by, or are intolerant to, other systemic therapies or phototherapies.  Psoriatic arthritis (Ps",
+          "summary": "EMA status: Authorised. MA date: 2025-02-14.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yesintek"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-19",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Usrenty (ustekinumab) – Authorised",
+          "indication": "Plaque psoriasis Usrenty is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A). Paediatric plaque psoriasis Usrenty is indicated for the treatment of moderate to severe plaque psoriasis in children and adolescent patients from the age of 6 years and older, who are inadequately controlled by, or are intolerant to, other systemic therapies or phototherapies. Psoriatic arthritis (PsA) Usr",
+          "summary": "EMA status: Authorised. MA date: 2025-09-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/usrenty"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-18",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Fymskina (ustekinumab) – Authorised",
+          "indication": "Adult Crohn’s Disease&nbsp; Fymskina is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a TNFα antagonist.&nbsp; Paediatric Crohn's Disease&nbsp; Fymskina is indicated for the treatment of moderately to severely active Crohn’s disease in paediatric patients weighing at least 40 kg, who have had an inadequate response to, or were intolerant to either conventional or biologic therapy. Ulcerative colitis&nbsp; Fymskina is indicated for t",
+          "summary": "EMA status: Authorised. MA date: 2024-09-25.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/fymskina"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-09",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Wezenla (ustekinumab) – Authorised",
+          "indication": "Crohn’s diseaseWezenla is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a TNFα antagonist or have medical contraindications to such therapies. Pediatric Crohn's diseaseWezenla is indicated for the treatment of moderately to severely active Crohn’s disease in paediatric patients from the age of 2 years and older, who have had an inadequate response to, or were intolerant to either conventional or biologic therapy.Plaque psoriasisWeze",
+          "summary": "EMA status: Authorised. MA date: 2024-06-20.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wezenla"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-03",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Otulfi (ustekinumab) – Authorised",
+          "indication": "Plaque psoriasisOtulfi is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A). Paediatric plaque psoriasisOtulfi is indicated for the treatment of moderate to severe plaque psoriasis in children and adolescent patients from the age of 6 years and older, and who are inadequately controlled by, or are intolerant to, other systemic therapies or phototherapies. Psoriatic arthritis (PsA)Otul",
+          "summary": "EMA status: Authorised. MA date: 2024-09-25.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/otulfi"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-27",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Pyzchiva (ustekinumab) – Authorised",
+          "indication": "Crohn’s DiseasePyzchiva is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a TNFα antagonist or have medical contraindications to such therapies.Plaque psoriasisPyzchiva is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A) (s",
+          "summary": "EMA status: Authorised. MA date: 2024-04-19.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pyzchiva"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-20",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Imuldosa (ustekinumab) – Authorised",
+          "indication": "Adult Crohn’s Disease&nbsp;Imuldosa is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a TNFα antagonist or have medical contraindications to such therapies. Paediatric Crohn’s Disease&nbsp;Imuldosa is indicated for the treatment of moderately to severely active Crohn’s disease in paediatric patients from the age of 2 years and older, who have had an inadequate response to, or were intolerant to either conventional or biologic therapy",
+          "summary": "EMA status: Authorised. MA date: 2024-12-12.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/imuldosa"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-16",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Stelara (ustekinumab) – Authorised",
+          "indication": "Adult Crohn’s Disease  Stelara is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a TNFα antagonist.  Paediatric Crohn's Disease  Stelara is indicated for the treatment of moderately to severely active Crohn’s disease in paediatric patients from the age of 2 years and older, who have had an inadequate response to, or were intolerant to either conventional or biologic therapy.  Adult ulcerative colitis  Stelara is indicated for the tre",
+          "summary": "EMA status: Authorised. MA date: 2009-01-16.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/stelara"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-06",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Steqeyma (ustekinumab) – Authorised",
+          "indication": "Plaque psoriasis&nbsp;&nbsp;Steqeyma is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A).&nbsp; Paediatric plaque psoriasis&nbsp;&nbsp;Steqeyma is indicated for the treatment of moderate to severe plaque psoriasis in children and adolescent patients from the age of 6 years and older, who are inadequately controlled by, or are intolerant to, other systemic therapies or phototherapies.",
+          "summary": "EMA status: Authorised. MA date: 2024-08-22.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/steqeyma"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-06",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Usymro (ustekinumab) – Authorised",
+          "indication": "Plaque psoriasis Usymro is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A).  Paediatric plaque psoriasis Usymro is indicated for the treatment of moderate to severe plaque psoriasis in children and adolescent patients from the age of 6 years and older, who are inadequately controlled by, or are intolerant to, other systemic therapies or phototherapies. Psoriatic arthritis (PsA) Usym",
+          "summary": "EMA status: Authorised. MA date: 2025-08-14.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/usymro"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-24",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Uzpruvo (ustekinumab) – Authorised",
+          "indication": "Plaque psoriasisUzpruvo is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A).Paediatric plaque psoriasisUzpruvo is indicated for the treatment of moderate to severe plaque psoriasis in children and adolescent patients from the age of 6 years and older, who are inadequately controlled by, or are intolerant to, other systemic therapies or phototherapies.Psoriatic arthritis (PsA)Uzpruvo,",
+          "summary": "EMA status: Authorised. MA date: 2024-01-05.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/uzpruvo"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-08-11",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Usgena (ustekinumab) – Authorised",
+          "indication": "Crohn’s Disease  Usgena is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a TNFα antagonist.  Ulcerative colitis  Usgena is indicated for the treatment of adult patients with moderately to severely active ulcerative colitis who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a biologic.  Plaque psoriasis  Usgena is indicated for the treatment of moderate to severe plaque ps",
+          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/usgena"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-06-25",
+          "update_type": "new_indication",
+          "status": "Positive",
+          "title": "Stelara (ustekinumab) – Positive",
+          "indication": "Psoriasis;Arthritis, Psoriatic;Crohn Disease;Colitis, Ulcerative",
+          "summary": "EMA post-authorisation (Positive).",
+          "url": "https://www.ema.europa.eu/en/medicines/human/variation/stelara"
+        }
+      ]
+    },
+    {
+      "id": "sub-leflunomide",
+      "drug_name": "Leflunomide ratiopharm",
+      "active_substance": "leflunomide",
+      "atc_code": "L04AK01",
+      "therapeutic_area": "Immunosuppressants",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Leflunomide medac (leflunomide) – Authorised",
+          "indication": "Leflunomide is indicated for the treatment of adult patients with:  active rheumatoid arthritis as a 'disease-modifying antirheumatic drug' (DMARD).  Recent or concurrent treatment with hepatotoxic or haematotoxic DMARDs (e.g. methotrexate) may result in an increased risk of serious adverse reactions, therefore, the initiation of leflunomide treatment has to be carefully considered regarding these benefit / risk aspects. Moreover, switching from leflunomide to another DMARD without following the washout procedure may also increase the risk of serious adverse reactions even for a long time afte",
+          "summary": "EMA status: Authorised. MA date: 2010-07-27.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/leflunomide-medac"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-16",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Leflunomide ratiopharm (leflunomide) – Authorised",
+          "indication": "Leflunomide is indicated for the treatment of adult patients with:  active rheumatoid arthritis as a 'disease-modifying antirheumatic drug' (DMARD); active psoriatic arthritis.  Recent or concurrent treatment with hepatotoxic or haematotoxic DMARDs (e.g. methotrexate) may result in an increased risk of serious adverse reactions; therefore, the initiation of leflunomide treatment has to be carefully considered regarding these benefit / risk aspects. Moreover, switching from leflunomide to another DMARD without following the washout procedure may also increase the risk of serious adverse reactio",
+          "summary": "EMA status: Authorised. MA date: 2010-11-28.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/leflunomide-ratiopharm"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-22",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Leflunomide Zentiva (previously Leflunomide Winthrop) (leflunomide) – Authorised",
+          "indication": "Leflunomide is indicated for the treatment of adult patients with:  active rheumatoid arthritis as a 'disease-modifying antirheumatic drug' (DMARD); active psoriatic arthritis.  Recent or concurrent treatment with hepatotoxic or haematotoxic DMARDs (e.g. methotrexate) may result in an increased risk of serious adverse reactions; therefore, the initiation of leflunomide treatment has to be carefully considered regarding these benefit / risk aspects. Moreover, switching from leflunomide to another DMARD without following the washout procedure may also increase the risk of serious adverse reactio",
+          "summary": "EMA status: Authorised. MA date: 2010-01-08.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/leflunomide-zentiva"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-07",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Arava (leflunomide) – Authorised",
+          "indication": "Leflunomide is indicated for the treatment of adult patients with:  active rheumatoid arthritis as a 'disease-modifying antirheumatic drug' (DMARD); active psoriatic arthritis.  Recent or concurrent treatment with hepatotoxic or haematotoxic DMARDs (e.g. methotrexate) may result in an increased risk of serious adverse reactions; therefore, the initiation of leflunomide treatment has to be carefully considered regarding these benefit / risk aspects. Moreover, switching from leflunomide to another DMARD without following the washout procedure may also increase the risk of serious adverse reactio",
+          "summary": "EMA status: Authorised. MA date: 1999-09-02.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/arava"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-08-04",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Leflunomide medac (leflunomide) – Authorised",
+          "indication": "Leflunomide is indicated for the treatment of adult patients with:  active rheumatoid arthritis as a 'disease-modifying antirheumatic drug' (DMARD).  Recent or concurrent treatment with hepatotoxic or haematotoxic DMARDs (e.g. methotrexate) may result in an increased risk of serious adverse reactions, therefore, the initiation of leflunomide treatment has to be carefully considered regarding these benefit / risk aspects. Moreover, switching from leflunomide to another DMARD without following the washout procedure may also increase the risk of serious adverse reactions even for a long time afte",
+          "summary": "EMA status: Authorised. MA date: 2010-07-27.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/leflunomide-medac"
+        }
+      ]
+    },
+    {
+      "id": "sub-eculizumab",
+      "drug_name": "Soliris",
+      "active_substance": "Eculizumab",
+      "atc_code": "L04AA25",
+      "therapeutic_area": "Immunosuppressants",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Bekemv (Eculizumab) – Authorised",
+          "indication": "Bekemv is indicated in adults and children for the treatment of paroxysmal nocturnal haemoglobinuria (PNH). Evidence of clinical benefit is demonstrated in patients with haemolysis with clinical symptom(s) indicative of high disease activity, regardless of transfusion history (see section 5.1).",
+          "summary": "EMA status: Authorised. MA date: 2023-04-19.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bekemv"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-16",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Soliris (Eculizumab) – Authorised",
+          "indication": "Soliris is indicated in adults and children for the treatment of:  Paroxysmal nocturnal haemoglobinuria (PNH).  Evidence of clinical benefit is demonstrated in patients with haemolysis with clinical symptom(s) indicative of high disease activity, regardless of transfusion history (see section 5.1).  &nbsp;Atypical haemolytic uremic syndrome (aHUS).  Soliris is indicated in adults for the treatment of:  Refractory generalized myasthenia gravis (gMG) in patients who are anti-acetylcholine receptor (AChR) antibody-positive (see section 5.1). Neuromyelitis optica spectrum disorder (NMOSD) in patie",
+          "summary": "EMA status: Authorised. MA date: 2007-06-20.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/soliris"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-15",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Bekemv (Eculizumab) – Authorised",
+          "indication": "Bekemv is indicated in adults and children for the treatment of paroxysmal nocturnal haemoglobinuria (PNH). Evidence of clinical benefit is demonstrated in patients with haemolysis with clinical symptom(s) indicative of high disease activity, regardless of transfusion history (see section 5.1).",
+          "summary": "EMA status: Authorised. MA date: 2023-04-19.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bekemv"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-08-07",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Epysqli (Eculizumab) – Authorised",
+          "indication": "Epysqli is indicated in adults and children for the treatment of:  Paroxysmal nocturnal haemoglobinuria (PNH).Evidence of clinical benefit is demonstrated in patients with haemolysis with clinical symptom(s) indicative of high disease activity, regardless of transfusion history. Atypical haemolytic uremic syndrome (aHUS).",
+          "summary": "EMA status: Authorised. MA date: 2023-05-26.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/epysqli"
+        }
+      ]
+    },
+    {
+      "id": "sub-spesolimab",
+      "drug_name": "Spevigo",
+      "active_substance": "spesolimab",
+      "atc_code": "L04AC22",
+      "therapeutic_area": "Immunosuppressants",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Spevigo (spesolimab) – Authorised",
+          "indication": "Spevigo is indicated for the prevention of generalised pustular psoriasis (GPP) flares in adults and adolescents from 12 years of age. Spevigo is indicated for the treatment of generalised pustular psoriasis (GPP) flares in adults and adolescents from 12 years of age as monotherapy.",
+          "summary": "EMA status: Authorised. MA date: 2022-12-09.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/spevigo"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-13",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Spevigo (spesolimab) – Authorised",
+          "indication": "Spevigo is indicated for the prevention of generalised pustular psoriasis (GPP) flares in adults and adolescents from 12 years of age. Spevigo is indicated for the treatment of generalised pustular psoriasis (GPP) flares in adults and adolescents from 12 years of age as monotherapy.",
+          "summary": "EMA status: Authorised. MA date: 2022-12-09.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/spevigo"
+        }
+      ]
+    },
+    {
+      "id": "sub-pemigatinib",
+      "drug_name": "Pemazyre",
+      "active_substance": "pemigatinib",
+      "atc_code": "L01EN02",
+      "therapeutic_area": "Antineoplastic agents",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Pemazyre (pemigatinib) – Authorised",
+          "indication": "Pemazyre monotherapy is indicated for the treatment of adults with locally advanced or metastatic cholangiocarcinoma with a fibroblast growth factor receptor 2 (FGFR2) fusion or rearrangement that have progressed &nbsp;after at least one prior line of systemic therapy.",
+          "summary": "EMA status: Authorised. MA date: 2021-03-26.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pemazyre"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-10",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Pemazyre (pemigatinib) – Authorised",
+          "indication": "Pemazyre monotherapy is indicated for the treatment of adults with locally advanced or metastatic cholangiocarcinoma with a fibroblast growth factor receptor 2 (FGFR2) fusion or rearrangement that have progressed &nbsp;after at least one prior line of systemic therapy.",
+          "summary": "EMA status: Authorised. MA date: 2021-03-26.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pemazyre"
+        }
+      ]
+    },
+    {
+      "id": "sub-formoterol-fumarate-dihydrate-glycopyrronium-bromide-budesonide",
+      "drug_name": "Trixeo Aerosphere",
+      "active_substance": "formoterol fumarate dihydrate;glycopyrronium bromide;budesonide",
+      "atc_code": "R03AL11",
+      "therapeutic_area": "Drugs for obstructive airway diseases",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Trixeo Aerosphere (formoterol fumarate dihydrate;glycopyrronium bromide;budesonide) – Authorised",
+          "indication": "Trixeo Aerosphere is indicated as a maintenance treatment of asthma in patients 12 years of age and older who are not adequately controlled by a combination of a medium dose inhaled corticosteroid and a long-acting beta2-agonist.&nbsp;   Trixeo Aerosphere is indicated as a maintenance treatment in adult patients with moderate to severe chronic obstructive pulmonary disease (COPD) who are not adequately treated by a combination of an inhaled corticosteroid and a long acting beta2 agonist or combination of a long-acting beta2 agonist and a long acting muscarinic antagonist.&nbsp;",
+          "summary": "EMA status: Authorised. MA date: 2020-12-09.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/trixeo-aerosphere"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-09",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Trixeo Aerosphere (formoterol fumarate dihydrate;glycopyrronium bromide;budesonide) – Authorised",
+          "indication": "Trixeo Aerosphere is indicated as a maintenance treatment of asthma in patients 12 years of age and older who are not adequately controlled by a combination of a medium dose inhaled corticosteroid and a long-acting beta2-agonist.&nbsp;   Trixeo Aerosphere is indicated as a maintenance treatment in adult patients with moderate to severe chronic obstructive pulmonary disease (COPD) who are not adequately treated by a combination of an inhaled corticosteroid and a long acting beta2 agonist or combination of a long-acting beta2 agonist and a long acting muscarinic antagonist.&nbsp;",
+          "summary": "EMA status: Authorised. MA date: 2020-12-09.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/trixeo-aerosphere"
+        }
+      ]
+    },
+    {
+      "id": "sub-denosumab",
+      "drug_name": "Bildyos",
+      "active_substance": "denosumab",
+      "atc_code": "M05BX04",
+      "therapeutic_area": "Drugs for treatment of bone diseases",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Osenvelt (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1).Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
+          "summary": "EMA status: Authorised. MA date: 2025-02-14.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/osenvelt"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-03",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Bildyos (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. Inpostmenopausal women, denosumab significantly reduces the risk of vertebral, non-vertebral and hipfractures. Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased riskof fractures. In men with prostate cancer receiving hormone ablation, denosumabsignificantly reduces the risk of vertebral fractures. Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients atincreased risk of fracture.",
+          "summary": "EMA status: Authorised. MA date: 2025-09-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bildyos"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-29",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Jubereq (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.&nbsp;Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
+          "summary": "EMA status: Authorised. MA date: 2025-05-26.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/jubereq"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-28",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Yaxwer (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
+          "summary": "EMA status: Authorised. MA date: 2025-06-23.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yaxwer"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-23",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Prolia (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women Prolia significantly reduces the risk of vertebral, non vertebral and hip fractures. Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, Prolia significantly reduces the risk of vertebral fractures.",
+          "summary": "EMA status: Authorised. MA date: 2010-05-26.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/prolia"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-22",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Vevzuo (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1).Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
+          "summary": "EMA status: Authorised. MA date: 2025-06-25.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vevzuo"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-14",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Wyost (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (SREs) (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.&nbsp; Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
+          "summary": "EMA status: Authorised. MA date: 2024-05-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wyost"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-14",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Denosumab Ascend (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.&nbsp;",
+          "summary": "EMA status: Authorised. MA date: 2026-08-28.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/denosumab-ascend"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-01",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Degevma (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
+          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/degevma"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-30",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Denbrayce (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1).Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
+          "summary": "EMA status: Authorised. MA date: 2025-06-26.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/denbrayce"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-29",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Xbryk (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1). Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
+          "summary": "EMA status: Authorised. MA date: 2025-02-12.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xbryk"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-22",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Xbonzy (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
+          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xbonzy"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-21",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Osenvelt (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1).Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
+          "summary": "EMA status: Authorised. MA date: 2025-02-14.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/osenvelt"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-15",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Enwylma (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1).Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
+          "summary": "EMA status: Authorised. MA date: 2025-06-26.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/enwylma"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-11",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Bilprevda (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.&nbsp;",
+          "summary": "EMA status: Authorised. MA date: 2025-09-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bilprevda"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-01",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Zadenvi (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women, denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, ZADENVI significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see section 5",
+          "summary": "EMA status: Authorised. MA date: 2025-06-26.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zadenvi"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-08-24",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Izamby (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women, denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, Izamby significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see section 5.",
+          "summary": "EMA status: Authorised. MA date: 2025-06-26.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/izamby"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-08-24",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Bomyntra (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone. Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
+          "summary": "EMA status: Authorised. MA date: 2025-07-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bomyntra"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-08-20",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Junod (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women Junod significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, Junod significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see section 5.1).",
+          "summary": "EMA status: Authorised. MA date: 2025-06-23.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/junod"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-08-18",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Conexxence (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures. Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures. Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see sectio",
+          "summary": "EMA status: Authorised. MA date: 2025-07-18.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/conexxence"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-08-04",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Obodence (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures. Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures. Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see sectio",
+          "summary": "EMA status: Authorised. MA date: 2025-02-12.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/obodence"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-07-17",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Kefdensis (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women Kefdensis significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures&nbsp;(see section 5.1). In men with prostate cancer receiving hormone ablation, Kefdensis significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see sec",
+          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kefdensis"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-07-14",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Acvybra (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women Acvybra significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, Acvybra significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
+          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/acvybra"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-06-30",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Xgeva (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1). Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.&nbsp;&nbsp;",
+          "summary": "EMA status: Authorised. MA date: 2011-07-13.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xgeva"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-06-23",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Evfraxy (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women Evfraxy significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, Evfraxy significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see section 5.1)",
+          "summary": "EMA status: Authorised. MA date: 2025-06-30.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/evfraxy"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-05-22",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Osvyrti (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
+          "summary": "EMA status: Authorised. MA date: 2025-05-26.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/osvyrti"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-04-24",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Vysribli (previously Denosumab Intas) (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures. Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures. Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see sectio",
+          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vysribli"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-02-20",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Osqay (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
+          "summary": "EMA status: Authorised. MA date: 2026-01-08.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/osqay"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-01-20",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Ponlimsi (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women Ponlimsi significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, Ponlimsi significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
+          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ponlimsi"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-01-14",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Zvogra (denosumab) – Authorised",
+          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1). Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
+          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zvogra"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-01-14",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Stoboclo (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
+          "summary": "EMA status: Authorised. MA date: 2025-02-14.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/stoboclo"
+        },
+        {
+          "source": "EMA",
+          "date": "2025-11-27",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Rolcya (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
+          "summary": "EMA status: Authorised. MA date: 2025-07-17.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rolcya"
+        },
+        {
+          "source": "EMA",
+          "date": "2025-11-27",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Jubbonti (denosumab) – Authorised",
+          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
+          "summary": "EMA status: Authorised. MA date: 2024-05-16.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/jubbonti"
+        }
+      ]
+    },
+    {
+      "id": "sub-covid-19-vaccine",
+      "drug_name": "Bimervax",
+      "active_substance": "COVID-19 Vaccine (recombinant, adjuvanted)",
+      "atc_code": "J07BN",
+      "therapeutic_area": "Vaccines",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Bimervax (COVID-19 Vaccine (recombinant, adjuvanted)) – Authorised",
+          "indication": "Bimervax is indicated as a booster for active immunisation to prevent COVID-19 in individuals 12 years of age and older who have previously received a mRNA COVID-19 vaccine (see sections 4.2 and 5.1). The use of this vaccine should be in accordance with official recommendations. Bimervax XBB.1.16 is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in individuals 12 years of age and older. The use of this vaccine should be in accordance with official recommendations. Bimervax LP.8.1 is indicated for active immunisation to prevent COVID-19 caused by SARS CoV-2 in indivi",
+          "summary": "EMA status: Authorised. MA date: 2023-03-30.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bimervax"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-20",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Bimervax (COVID-19 Vaccine (recombinant, adjuvanted)) – Authorised",
+          "indication": "Bimervax is indicated as a booster for active immunisation to prevent COVID-19 in individuals 12 years of age and older who have previously received a mRNA COVID-19 vaccine (see sections 4.2 and 5.1). The use of this vaccine should be in accordance with official recommendations. Bimervax XBB.1.16 is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in individuals 12 years of age and older. The use of this vaccine should be in accordance with official recommendations. Bimervax LP.8.1 is indicated for active immunisation to prevent COVID-19 caused by SARS CoV-2 in indivi",
+          "summary": "EMA status: Authorised. MA date: 2023-03-30.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bimervax"
+        }
+      ]
+    },
+    {
+      "id": "sub-ocrelizumab",
+      "drug_name": "Ocrevus",
+      "active_substance": "ocrelizumab",
+      "atc_code": "L04AG08",
+      "therapeutic_area": "Immunosuppressants",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Ocrevus (ocrelizumab) – Authorised",
+          "indication": "Treatment of adult patients with relapsing forms of multiple sclerosis (RMS) with active disease defined by clinical or imaging features. Treatment of adult patients with early primary progressive multiple sclerosis (PPMS) in terms of disease duration and level of disability, and with imaging features characteristic of inflammatory activity.",
+          "summary": "EMA status: Authorised. MA date: 2018-01-08.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ocrevus"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-16",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Ocrevus (ocrelizumab) – Authorised",
+          "indication": "Treatment of adult patients with relapsing forms of multiple sclerosis (RMS) with active disease defined by clinical or imaging features. Treatment of adult patients with early primary progressive multiple sclerosis (PPMS) in terms of disease duration and level of disability, and with imaging features characteristic of inflammatory activity.",
+          "summary": "EMA status: Authorised. MA date: 2018-01-08.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ocrevus"
+        }
+      ]
+    },
+    {
+      "id": "sub-pertuzumab",
+      "drug_name": "Poherdy",
+      "active_substance": "pertuzumab",
+      "atc_code": "L01FD02",
+      "therapeutic_area": "Antineoplastic agents",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Pebrilzo (pertuzumab) – Authorised",
+          "indication": "Early breast cancerPebrilzo is indicated for use in combination with trastuzumab and chemotherapy in:  the neoadjuvant treatment of adult patients with HER2-positive, locally advanced, inflammatory, or early stage breast cancer at high risk of recurrence the adjuvant treatment of adult patients with HER2-positive early breast cancer at high risk of recurrence  Metastatic breast cancerPebrilzo is indicated for use in combination with trastuzumab and docetaxel in adult patients with HER2-positive metastatic or locally recurrent unresectable breast cancer, who have not received previous anti-HER2",
+          "summary": "EMA status: Authorised. MA date: 2026-11-13.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pebrilzo"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-14",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Poherdy (pertuzumab) – Authorised",
+          "indication": "Early breast cancerPoherdy is indicated for use in combination with trastuzumab and chemotherapy in:- the neoadjuvant treatment of adult patients with HER2-positive, locally advanced, inflammatory, or early stage breast cancer at high risk of recurrence- the adjuvant treatment of adult patients with HER2-positive early breast cancer at high risk of recurrenceMetastatic breast cancerPoherdy is indicated for use in combination with trastuzumab and docetaxel in adult patients with HER2-positive metastatic or locally recurrent unresectable breast cancer, who have not received previous anti-HER2 th",
+          "summary": "EMA status: Authorised. MA date: 2026-04-23.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/poherdy"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-09",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Perjeta (pertuzumab) – Authorised",
+          "indication": "Metastatic Breast Cancer: Perjeta is indicated for use in combination with trastuzumab and docetaxel in adult patients with HER2-positive metastatic or locally recurrent unresectable breast cancer, who have not received previous anti-HER2 therapy or chemotherapy for their metastatic disease. Neoadjuvant Treatment of Breast Cancer: Perjeta is indicated for use in combination with trastuzumab and chemotherapy for the neoadjuvant treatment of adult patients with HER2-positive, locally advanced, inflammatory, or early stage breast cancer at high risk of recurrence.",
+          "summary": "EMA status: Authorised. MA date: 2013-03-04.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/perjeta"
+        }
+      ]
+    },
+    {
+      "id": "sub-relugolix",
+      "drug_name": "Orgovyx",
+      "active_substance": "relugolix",
+      "atc_code": "L02BX",
+      "therapeutic_area": "Endocrine therapy",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Orgovyx (relugolix) – Authorised",
+          "indication": "Orgovyx is indicated for the treatment of adult patients with advanced hormone-sensitive prostate cancer.",
+          "summary": "EMA status: Authorised. MA date: 2022-04-29.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/orgovyx"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-02",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Orgovyx (relugolix) – Authorised",
+          "indication": "Orgovyx is indicated for the treatment of adult patients with advanced hormone-sensitive prostate cancer.",
+          "summary": "EMA status: Authorised. MA date: 2022-04-29.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/orgovyx"
+        }
+      ]
+    },
+    {
+      "id": "sub-budesonide-formoterol-fumarate-dihydrate-glycopyrronium-bromide",
+      "drug_name": "Riltrava Aerosphere",
+      "active_substance": "budesonide;formoterol fumarate dihydrate;glycopyrronium bromide",
+      "atc_code": "R03AL11",
+      "therapeutic_area": "Drugs for obstructive airway diseases",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Riltrava Aerosphere (budesonide;formoterol fumarate dihydrate;glycopyrronium bromide) – Authorised",
+          "indication": "Riltrava Aerosphere is indicated as a maintenance treatment of asthma in patients 12 years of age and older who are not adequately controlled by a combination of a medium dose inhaled corticosteroid and a long acting beta2 agonist. Riltrava Aerosphere is indicated as a maintenance treatment in adult patients with moderate to severe chronic obstructive pulmonary disease (COPD) who are not adequately treated by a combination of an inhaled corticosteroid and a long acting beta2 agonist or combination of a long-acting beta2 agonist and a long acting muscarinic antagonist.&nbsp;",
+          "summary": "EMA status: Authorised. MA date: 2022-01-06.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/riltrava-aerosphere"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-02",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Riltrava Aerosphere (budesonide;formoterol fumarate dihydrate;glycopyrronium bromide) – Authorised",
+          "indication": "Riltrava Aerosphere is indicated as a maintenance treatment of asthma in patients 12 years of age and older who are not adequately controlled by a combination of a medium dose inhaled corticosteroid and a long acting beta2 agonist. Riltrava Aerosphere is indicated as a maintenance treatment in adult patients with moderate to severe chronic obstructive pulmonary disease (COPD) who are not adequately treated by a combination of an inhaled corticosteroid and a long acting beta2 agonist or combination of a long-acting beta2 agonist and a long acting muscarinic antagonist.&nbsp;",
+          "summary": "EMA status: Authorised. MA date: 2022-01-06.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/riltrava-aerosphere"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-07-23",
+          "update_type": "new_indication",
+          "status": "Positive",
+          "title": "Riltrava Aerosphere (budesonide;formoterol fumarate dihydrate;glycopyrronium bromide) – Positive",
+          "indication": "Pulmonary Disease, Chronic Obstructive",
+          "summary": "EMA post-authorisation (Positive).",
+          "url": "https://www.ema.europa.eu/en/medicines/human/variation/riltrava-aerosphere"
+        }
+      ]
+    },
+    {
+      "id": "sub-tabelecleucel",
+      "drug_name": "Ebvallo",
+      "active_substance": "tabelecleucel",
+      "atc_code": "",
+      "therapeutic_area": "Lymphoproliferative Disorders",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Ebvallo (tabelecleucel) – Authorised",
+          "indication": "Ebvallo is indicated as monotherapy for treatment of adult and paediatric patients 2 years of age and older with relapsed or refractory Epstein-Barr virus positive post-transplant lymphoproliferative disease (EBV+ PTLD) who have received at least one prior therapy. For solid organ transplant patients, prior therapy includes chemotherapy unless chemotherapy is inappropriate.",
+          "summary": "EMA status: Authorised. MA date: 2022-12-16.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ebvallo"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-10-02",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Ebvallo (tabelecleucel) – Authorised",
+          "indication": "Ebvallo is indicated as monotherapy for treatment of adult and paediatric patients 2 years of age and older with relapsed or refractory Epstein-Barr virus positive post-transplant lymphoproliferative disease (EBV+ PTLD) who have received at least one prior therapy. For solid organ transplant patients, prior therapy includes chemotherapy unless chemotherapy is inappropriate.",
+          "summary": "EMA status: Authorised. MA date: 2022-12-16.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ebvallo"
+        }
+      ]
+    },
+    {
+      "id": "sub-crizotinib",
+      "drug_name": "Xalkori",
+      "active_substance": "crizotinib",
+      "atc_code": "L01ED01",
+      "therapeutic_area": "Antineoplastic agents",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Xalkori (crizotinib) – Authorised",
+          "indication": "Xalkori as monotherapy is indicated for:  The first line treatment of adults with anaplastic lymphoma kinase (ALK) positive advanced non small cell lung cancer (NSCLC) The treatment of adults with previously treated anaplastic lymphoma kinase (ALK) positive advanced non small cell lung cancer (NSCLC) The treatment of adults with ROS1 positive advanced non small cell lung cancer (NSCLC) The treatment of paediatric patients (age 1 to &lt;18 years) with relapsed or refractory systemic anaplastic lymphoma kinase (ALK) positive anaplastic large cell lymphoma (ALCL) The treatment of paediatric patie",
+          "summary": "EMA status: Authorised. MA date: 2012-10-23.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xalkori"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-30",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Xalkori (crizotinib) – Authorised",
+          "indication": "Xalkori as monotherapy is indicated for:  The first line treatment of adults with anaplastic lymphoma kinase (ALK) positive advanced non small cell lung cancer (NSCLC) The treatment of adults with previously treated anaplastic lymphoma kinase (ALK) positive advanced non small cell lung cancer (NSCLC) The treatment of adults with ROS1 positive advanced non small cell lung cancer (NSCLC) The treatment of paediatric patients (age 1 to &lt;18 years) with relapsed or refractory systemic anaplastic lymphoma kinase (ALK) positive anaplastic large cell lymphoma (ALCL) The treatment of paediatric patie",
+          "summary": "EMA status: Authorised. MA date: 2012-10-23.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xalkori"
+        }
+      ]
+    },
+    {
+      "id": "sub-mifamurtide",
+      "drug_name": "Mepact",
+      "active_substance": "mifamurtide",
+      "atc_code": "L03AX15",
+      "therapeutic_area": "Immunostimulants",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Mepact (mifamurtide) – Authorised",
+          "indication": "Mepact is indicated in children, adolescents and young adults for the treatment of high-grade resectable non-metastatic osteosarcoma after macroscopically complete surgical resection. It is used in combination with postoperative multi-agent chemotherapy. Safety and efficacy have been assessed in studies of patients two to 30 years of age at initial diagnosis.",
+          "summary": "EMA status: Authorised. MA date: 2009-03-06.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mepact"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-09-16",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Mepact (mifamurtide) – Authorised",
+          "indication": "Mepact is indicated in children, adolescents and young adults for the treatment of high-grade resectable non-metastatic osteosarcoma after macroscopically complete surgical resection. It is used in combination with postoperative multi-agent chemotherapy. Safety and efficacy have been assessed in studies of patients two to 30 years of age at initial diagnosis.",
+          "summary": "EMA status: Authorised. MA date: 2009-03-06.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mepact"
+        }
+      ]
+    },
+    {
+      "id": "sub-posaconazole",
+      "drug_name": "Noxafil",
+      "active_substance": "posaconazole",
+      "atc_code": "J02AC04",
+      "therapeutic_area": "Triazole and triazole derivatives",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Posaconazole AHCL (posaconazole) – Authorised",
+          "indication": "Posaconazole AHCL oral suspension is indicated for use in the treatment of the following fungal infections in adults:  Invasive aspergillosis in patients with disease that is refractory to amphotericin B or itraconazole or in patients who are intolerant of these medicinal products; Fusariosis in patients with disease that is refractory to amphotericin B or in patients who are intolerant of amphotericin B; Chromoblastomycosis and mycetoma in patients with disease that is refractory to itraconazole or in patients who are intolerant of itraconazole; Coccidioidomycosis in patients with disease tha",
+          "summary": "EMA status: Authorised. MA date: 2019-07-25.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/posaconazole-ahcl"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Posaconazole Accord (posaconazole) – Authorised",
+          "indication": "Posaconazole Accord is indicated for use in the treatment of the following fungal infections in adults:  Invasive aspergillosis; Fusariosis in patients with disease that is refractory to amphotericin B or in patients who are intolerant of amphotericin B; Chromoblastomycosis and mycetoma in patients with disease that is refractory to itraconazole or in patients who are intolerant of itraconazole; Coccidioidomycosis in patients with disease that is refractory to amphotericin B, itraconazole or fluconazole or in patients who are intolerant of these medicinal products.  Refractoriness is defined a",
+          "summary": "EMA status: Authorised. MA date: 2019-07-25.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/posaconazole-accord"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-07-01",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Noxafil (posaconazole) – Authorised",
+          "indication": "Noxafil concentrate for solution for infusion is indicated for use in the treatment of the following invasive fungal infections in adult and paediatric patients from 2 years of age:&nbsp;  Invasive aspergillosis&nbsp; Fusariosis in patients with disease that is refractory to amphotericin B or in patients who are intolerant of amphotericin B;  Chromoblastomycosis and mycetoma in patients with disease that is refractory to itraconazole or in patients who are intolerant of itraconazole;  Coccidioidomycosis in patients with disease that is refractory to amphotericin B, itraconazole or fluconazole ",
+          "summary": "EMA status: Authorised. MA date: 2005-10-25.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/noxafil"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-06-12",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Posaconazole Accord (posaconazole) – Authorised",
+          "indication": "Posaconazole Accord is indicated for use in the treatment of the following fungal infections in adults:  Invasive aspergillosis; Fusariosis in patients with disease that is refractory to amphotericin B or in patients who are intolerant of amphotericin B; Chromoblastomycosis and mycetoma in patients with disease that is refractory to itraconazole or in patients who are intolerant of itraconazole; Coccidioidomycosis in patients with disease that is refractory to amphotericin B, itraconazole or fluconazole or in patients who are intolerant of these medicinal products.  Refractoriness is defined a",
+          "summary": "EMA status: Authorised. MA date: 2019-07-25.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/posaconazole-accord"
+        }
+      ]
+    },
+    {
+      "id": "sub-fingolimod",
+      "drug_name": "Fingolimod Mylan",
+      "active_substance": "Fingolimod",
+      "atc_code": "L04AE01",
+      "therapeutic_area": "Immunosuppressants",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Fingolimod Mylan (Fingolimod) – Authorised",
+          "indication": "Indicated as single disease modifying therapy in highly active relapsing remitting multiple sclerosis for the following groups of adult and paediatric patients aged 10 years and older: Patients with highly active disease despite a full and adequate course of treatment with at least one disease modifying therapy (for exceptions and information about washout periods see sections 4.4 and 5.1) or Patients with rapidly evolving severe relapsing remitting multiple sclerosis defined by 2 or more disabling relapses in one year, and with 1 or more Gadolinium enhancing lesions on brain MRI or a signific",
+          "summary": "EMA status: Authorised. MA date: 2021-08-18.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/fingolimod-mylan"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-06-12",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Fingolimod Mylan (Fingolimod) – Authorised",
+          "indication": "Indicated as single disease modifying therapy in highly active relapsing remitting multiple sclerosis for the following groups of adult and paediatric patients aged 10 years and older: Patients with highly active disease despite a full and adequate course of treatment with at least one disease modifying therapy (for exceptions and information about washout periods see sections 4.4 and 5.1) or Patients with rapidly evolving severe relapsing remitting multiple sclerosis defined by 2 or more disabling relapses in one year, and with 1 or more Gadolinium enhancing lesions on brain MRI or a signific",
+          "summary": "EMA status: Authorised. MA date: 2021-08-18.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/fingolimod-mylan"
+        }
+      ]
+    },
+    {
+      "id": "sub-fluciclovine",
+      "drug_name": "Axumin",
+      "active_substance": "fluciclovine (18F)",
+      "atc_code": "V09IX12",
+      "therapeutic_area": "Diagnostic radiopharmaceuticals",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Axumin (fluciclovine (18F)) – Authorised",
+          "indication": "This medicinal product is for diagnostic use only. Axumin is indicated for Positron Emission Tomography (PET) imaging to detect recurrence of prostate cancer in adult men with a suspected recurrence based on elevated blood prostate specific antigen (PSA) levels after primary curative treatment.",
+          "summary": "EMA status: Authorised. MA date: 2017-05-21.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/axumin"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-03-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Axumin (fluciclovine (18F)) – Authorised",
+          "indication": "This medicinal product is for diagnostic use only. Axumin is indicated for Positron Emission Tomography (PET) imaging to detect recurrence of prostate cancer in adult men with a suspected recurrence based on elevated blood prostate specific antigen (PSA) levels after primary curative treatment.",
+          "summary": "EMA status: Authorised. MA date: 2017-05-21.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/axumin"
+        }
+      ]
+    },
+    {
+      "id": "sub-sulphur-hexafluoride",
+      "drug_name": "SonoVue",
+      "active_substance": "sulphur hexafluoride",
+      "atc_code": "V08DA05",
+      "therapeutic_area": "Contrast media",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "SonoVue (sulphur hexafluoride) – Authorised",
+          "indication": "This medicinal product is for diagnostic use only. SonoVue is for use with ultrasound imaging to enhance the echogenicity of the blood, or of fluids in the urinary tract which results in an improved signal to noise ratio. SonoVue should only be used in patients where study without contrast enhancement is inconclusive. Echocardiography SonoVue is a transpulmonary echocardiographic contrast agent for use in adult patients with suspected or established cardiovascular disease to provide opacification of cardiac chambers and enhance left ventricular endocardial border delineation. Doppler of macrov",
+          "summary": "EMA status: Authorised. MA date: 2001-03-26.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/sonovue"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-03-20",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "SonoVue (sulphur hexafluoride) – Authorised",
+          "indication": "This medicinal product is for diagnostic use only. SonoVue is for use with ultrasound imaging to enhance the echogenicity of the blood, or of fluids in the urinary tract which results in an improved signal to noise ratio. SonoVue should only be used in patients where study without contrast enhancement is inconclusive. Echocardiography SonoVue is a transpulmonary echocardiographic contrast agent for use in adult patients with suspected or established cardiovascular disease to provide opacification of cardiac chambers and enhance left ventricular endocardial border delineation. Doppler of macrov",
+          "summary": "EMA status: Authorised. MA date: 2001-03-26.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/sonovue"
+        }
+      ]
+    },
+    {
+      "id": "sub-delafloxacin-meglumine",
+      "drug_name": "Quofenix",
+      "active_substance": "delafloxacin meglumine",
+      "atc_code": "J01MA23",
+      "therapeutic_area": "Antibacterials for systemic use",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-26",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Quofenix (delafloxacin meglumine) – Authorised",
+          "indication": "Quofenix is indicated for the treatment of the following infections in adults:  acute bacterial skin and skin structure infections (ABSSSI), community-acquired pneumonia (CAP), when it is considered inappropriate to use other antibacterial agents that are commonly recommended for the initial treatment of these infections (see sections 4.4 and 5.1).  Consideration should be given to official guidance on the appropriate use of antibacterial agents.",
+          "summary": "EMA status: Authorised. MA date: 2019-12-16.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/quofenix"
+        }
+      ]
+    },
+    {
+      "id": "name-nutrineal",
+      "drug_name": "Nutrineal",
+      "active_substance": "",
+      "atc_code": "",
+      "therapeutic_area": "Other / Unclassified",
+      "latest_date": "2026-11-26",
+      "latest_update_type": "other",
+      "sources_present": [
+        "TLV"
+      ],
+      "events": [
+        {
+          "source": "TLV",
+          "date": "2026-11-26",
+          "update_type": "other",
+          "status": "TLV Beslut",
+          "title": "Nutrineal PD4 1,1 % Aminosyror, peritonealdialysvätska får ett högre pris",
+          "indication": "Nutrineal är en dialysvätska som används vid dialysbehandling hos patienter med kronisk njursvikt. Nutrineal får ett högre pris från och med 1 december 2026.",
+          "summary": "Nutrineal är en dialysvätska som används vid dialysbehandling hos patienter med kronisk njursvikt. Nutrineal får ett högre pris från och med 1 december 2026.",
+          "url": "https://www.tlv.se/beslut/beslut-lakemedel/prishojning-bifall/arkiv/2026-11-26-nutrineal-pd4-11--aminosyror-peritonealdialysvatska-far-ett-hogre-pris.html"
+        }
+      ]
+    },
     {
       "id": "sub-entacapone",
       "drug_name": "Entacapone Orion",
@@ -204,150 +1626,6 @@
       ]
     },
     {
-      "id": "sub-pegfilgrastim",
-      "drug_name": "Nylaspeg",
-      "active_substance": "pegfilgrastim",
-      "atc_code": "L03AA13",
-      "therapeutic_area": "Immunostimulants",
-      "latest_date": "2026-11-25",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-25",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Dyrupeg (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2025-03-28.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/dyrupeg"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-11-04",
-          "update_type": "new_drug",
-          "status": "Authorised",
-          "title": "Nylaspeg (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).&nbsp;",
-          "summary": "EMA status: Authorised. MA date: 2026-11-04.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/nylaspeg"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-21",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Cavoley (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2026-09-25.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cavoley"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-02",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Ziextenzo (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2018-11-22.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ziextenzo"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-17",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Grasustek (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2019-06-20.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/grasustek"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-08-14",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Fulphila (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2018-11-20.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/fulphila"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-07-14",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Dyrupeg (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2025-03-28.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/dyrupeg"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-06-30",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Pelgraz (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2018-09-21.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pelgraz"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-03-18",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Cegfila (previously Pegfilgrastim Mundipharma) (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2019-12-19.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/cegfila"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-03-18",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Pelmeg (pegfilgrastim) – Authorised",
-          "indication": "To reduce the duration of neutropenia and the incidence of febrile neutropenia due to chemotherapy.",
-          "summary": "EMA status: Authorised. MA date: 2018-11-20.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pelmeg"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-02-24",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Vivlipeg (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2025-08-18.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vivlipeg"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-01-20",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Nyvepria (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in adult patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2020-11-18.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/nyvepria"
-        },
-        {
-          "source": "EMA",
-          "date": "2025-12-08",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Neulasta (pegfilgrastim) – Authorised",
-          "indication": "Reduction in the duration of neutropenia and the incidence of febrile neutropenia in patients treated with cytotoxic chemotherapy for malignancy (with the exception of chronic myeloid leukaemia and myelodysplastic syndromes).",
-          "summary": "EMA status: Authorised. MA date: 2002-08-22.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/neulasta"
-        }
-      ]
-    },
-    {
       "id": "sub-ambrisentan",
       "drug_name": "Ambrisentan Viatris (previously Ambrisentan Mylan)",
       "active_substance": "ambrisentan",
@@ -456,50 +1734,6 @@
           "indication": "Phenylketonurias",
           "summary": "EMA post-authorisation (Positive).",
           "url": "https://www.ema.europa.eu/en/medicines/human/variation/palynziq"
-        }
-      ]
-    },
-    {
-      "id": "sub-finerenone",
-      "drug_name": "Kerendia",
-      "active_substance": "finerenone",
-      "atc_code": "C09",
-      "therapeutic_area": "Agents acting on the renin-angiotensin system",
-      "latest_date": "2026-11-25",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-25",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Kerendia (finerenone) – Authorised",
-          "indication": "Kerendia is indicated for the treatment of chronic kidney disease (with albuminuria) associated with type 2 diabetes in adults. For study results with respect to renal and cardiovascular events, see section 5.1. Kerendia is indicated for the treatment of symptomatic chronic heart failure with left ventricular ejection fraction (LVEF) ≥ 40% in adults.",
-          "summary": "EMA status: Authorised. MA date: 2022-02-16.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kerendia"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-05-07",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Kerendia (finerenone) – Authorised",
-          "indication": "Kerendia is indicated for the treatment of chronic kidney disease (with albuminuria) associated with type 2 diabetes in adults. For study results with respect to renal and cardiovascular events, see section 5.1. Kerendia is indicated for the treatment of symptomatic chronic heart failure with left ventricular ejection fraction (LVEF) ≥ 40% in adults.",
-          "summary": "EMA status: Authorised. MA date: 2022-02-16.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kerendia"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-01-29",
-          "update_type": "new_indication",
-          "status": "Positive",
-          "title": "Kerendia (finerenone) – Positive",
-          "indication": "Renal Insufficiency, Chronic;Diabetes Mellitus, Type 2;Heart Failure",
-          "summary": "EMA post-authorisation (Positive).",
-          "url": "https://www.ema.europa.eu/en/medicines/human/variation/kerendia"
         }
       ]
     },
@@ -1876,150 +3110,6 @@
       ]
     },
     {
-      "id": "sub-ustekinumab",
-      "drug_name": "Yesintek",
-      "active_substance": "ustekinumab",
-      "atc_code": "L04AC05",
-      "therapeutic_area": "Immunosuppressants",
-      "latest_date": "2026-11-19",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-19",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Yesintek (ustekinumab) – Authorised",
-          "indication": "Plaque psoriasis  Yesintek is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A).  Paediatric plaque psoriasis  Yesintek is indicated for the treatment of moderate to severe plaque psoriasis in children and adolescent patients from the age of 6 years and older, who are inadequately controlled by, or are intolerant to, other systemic therapies or phototherapies.  Psoriatic arthritis (Ps",
-          "summary": "EMA status: Authorised. MA date: 2025-02-14.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yesintek"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-11-19",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Usrenty (ustekinumab) – Authorised",
-          "indication": "Plaque psoriasis Usrenty is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A). Paediatric plaque psoriasis Usrenty is indicated for the treatment of moderate to severe plaque psoriasis in children and adolescent patients from the age of 6 years and older, who are inadequately controlled by, or are intolerant to, other systemic therapies or phototherapies. Psoriatic arthritis (PsA) Usr",
-          "summary": "EMA status: Authorised. MA date: 2025-09-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/usrenty"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-11-18",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Fymskina (ustekinumab) – Authorised",
-          "indication": "Adult Crohn’s Disease&nbsp; Fymskina is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a TNFα antagonist.&nbsp; Paediatric Crohn's Disease&nbsp; Fymskina is indicated for the treatment of moderately to severely active Crohn’s disease in paediatric patients weighing at least 40 kg, who have had an inadequate response to, or were intolerant to either conventional or biologic therapy. Ulcerative colitis&nbsp; Fymskina is indicated for t",
-          "summary": "EMA status: Authorised. MA date: 2024-09-25.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/fymskina"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-11-09",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Wezenla (ustekinumab) – Authorised",
-          "indication": "Crohn’s diseaseWezenla is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a TNFα antagonist or have medical contraindications to such therapies. Pediatric Crohn's diseaseWezenla is indicated for the treatment of moderately to severely active Crohn’s disease in paediatric patients from the age of 2 years and older, who have had an inadequate response to, or were intolerant to either conventional or biologic therapy.Plaque psoriasisWeze",
-          "summary": "EMA status: Authorised. MA date: 2024-06-20.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wezenla"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-11-03",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Otulfi (ustekinumab) – Authorised",
-          "indication": "Plaque psoriasisOtulfi is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A). Paediatric plaque psoriasisOtulfi is indicated for the treatment of moderate to severe plaque psoriasis in children and adolescent patients from the age of 6 years and older, and who are inadequately controlled by, or are intolerant to, other systemic therapies or phototherapies. Psoriatic arthritis (PsA)Otul",
-          "summary": "EMA status: Authorised. MA date: 2024-09-25.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/otulfi"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-27",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Pyzchiva (ustekinumab) – Authorised",
-          "indication": "Crohn’s DiseasePyzchiva is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a TNFα antagonist or have medical contraindications to such therapies.Plaque psoriasisPyzchiva is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A) (s",
-          "summary": "EMA status: Authorised. MA date: 2024-04-19.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pyzchiva"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-20",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Imuldosa (ustekinumab) – Authorised",
-          "indication": "Adult Crohn’s Disease&nbsp;Imuldosa is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a TNFα antagonist or have medical contraindications to such therapies. Paediatric Crohn’s Disease&nbsp;Imuldosa is indicated for the treatment of moderately to severely active Crohn’s disease in paediatric patients from the age of 2 years and older, who have had an inadequate response to, or were intolerant to either conventional or biologic therapy",
-          "summary": "EMA status: Authorised. MA date: 2024-12-12.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/imuldosa"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-16",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Stelara (ustekinumab) – Authorised",
-          "indication": "Adult Crohn’s Disease  Stelara is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a TNFα antagonist.  Paediatric Crohn's Disease  Stelara is indicated for the treatment of moderately to severely active Crohn’s disease in paediatric patients from the age of 2 years and older, who have had an inadequate response to, or were intolerant to either conventional or biologic therapy.  Adult ulcerative colitis  Stelara is indicated for the tre",
-          "summary": "EMA status: Authorised. MA date: 2009-01-16.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/stelara"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-06",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Steqeyma (ustekinumab) – Authorised",
-          "indication": "Plaque psoriasis&nbsp;&nbsp;Steqeyma is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A).&nbsp; Paediatric plaque psoriasis&nbsp;&nbsp;Steqeyma is indicated for the treatment of moderate to severe plaque psoriasis in children and adolescent patients from the age of 6 years and older, who are inadequately controlled by, or are intolerant to, other systemic therapies or phototherapies.",
-          "summary": "EMA status: Authorised. MA date: 2024-08-22.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/steqeyma"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-06",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Usymro (ustekinumab) – Authorised",
-          "indication": "Plaque psoriasis Usymro is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A).  Paediatric plaque psoriasis Usymro is indicated for the treatment of moderate to severe plaque psoriasis in children and adolescent patients from the age of 6 years and older, who are inadequately controlled by, or are intolerant to, other systemic therapies or phototherapies. Psoriatic arthritis (PsA) Usym",
-          "summary": "EMA status: Authorised. MA date: 2025-08-14.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/usymro"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-24",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Uzpruvo (ustekinumab) – Authorised",
-          "indication": "Plaque psoriasisUzpruvo is indicated for the treatment of moderate to severe plaque psoriasis in adults who failed to respond to, or who have a contraindication to, or are intolerant to other systemic therapies including ciclosporin, methotrexate (MTX) or PUVA (psoralen and ultraviolet A).Paediatric plaque psoriasisUzpruvo is indicated for the treatment of moderate to severe plaque psoriasis in children and adolescent patients from the age of 6 years and older, who are inadequately controlled by, or are intolerant to, other systemic therapies or phototherapies.Psoriatic arthritis (PsA)Uzpruvo,",
-          "summary": "EMA status: Authorised. MA date: 2024-01-05.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/uzpruvo"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-08-11",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Usgena (ustekinumab) – Authorised",
-          "indication": "Crohn’s Disease  Usgena is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a TNFα antagonist.  Ulcerative colitis  Usgena is indicated for the treatment of adult patients with moderately to severely active ulcerative colitis who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a biologic.  Plaque psoriasis  Usgena is indicated for the treatment of moderate to severe plaque ps",
-          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/usgena"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-06-25",
-          "update_type": "new_indication",
-          "status": "Positive",
-          "title": "Stelara (ustekinumab) – Positive",
-          "indication": "Psoriasis;Arthritis, Psoriatic;Crohn Disease;Colitis, Ulcerative",
-          "summary": "EMA post-authorisation (Positive).",
-          "url": "https://www.ema.europa.eu/en/medicines/human/variation/stelara"
-        }
-      ]
-    },
-    {
       "id": "sub-belimumab",
       "drug_name": "Benlysta",
       "active_substance": "belimumab",
@@ -2678,60 +3768,6 @@
       ]
     },
     {
-      "id": "sub-leflunomide",
-      "drug_name": "Leflunomide ratiopharm",
-      "active_substance": "leflunomide",
-      "atc_code": "L04AK01",
-      "therapeutic_area": "Immunosuppressants",
-      "latest_date": "2026-11-16",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-16",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Leflunomide ratiopharm (leflunomide) – Authorised",
-          "indication": "Leflunomide is indicated for the treatment of adult patients with:  active rheumatoid arthritis as a 'disease-modifying antirheumatic drug' (DMARD); active psoriatic arthritis.  Recent or concurrent treatment with hepatotoxic or haematotoxic DMARDs (e.g. methotrexate) may result in an increased risk of serious adverse reactions; therefore, the initiation of leflunomide treatment has to be carefully considered regarding these benefit / risk aspects. Moreover, switching from leflunomide to another DMARD without following the washout procedure may also increase the risk of serious adverse reactio",
-          "summary": "EMA status: Authorised. MA date: 2010-11-28.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/leflunomide-ratiopharm"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-22",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Leflunomide Zentiva (previously Leflunomide Winthrop) (leflunomide) – Authorised",
-          "indication": "Leflunomide is indicated for the treatment of adult patients with:  active rheumatoid arthritis as a 'disease-modifying antirheumatic drug' (DMARD); active psoriatic arthritis.  Recent or concurrent treatment with hepatotoxic or haematotoxic DMARDs (e.g. methotrexate) may result in an increased risk of serious adverse reactions; therefore, the initiation of leflunomide treatment has to be carefully considered regarding these benefit / risk aspects. Moreover, switching from leflunomide to another DMARD without following the washout procedure may also increase the risk of serious adverse reactio",
-          "summary": "EMA status: Authorised. MA date: 2010-01-08.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/leflunomide-zentiva"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-07",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Arava (leflunomide) – Authorised",
-          "indication": "Leflunomide is indicated for the treatment of adult patients with:  active rheumatoid arthritis as a 'disease-modifying antirheumatic drug' (DMARD); active psoriatic arthritis.  Recent or concurrent treatment with hepatotoxic or haematotoxic DMARDs (e.g. methotrexate) may result in an increased risk of serious adverse reactions; therefore, the initiation of leflunomide treatment has to be carefully considered regarding these benefit / risk aspects. Moreover, switching from leflunomide to another DMARD without following the washout procedure may also increase the risk of serious adverse reactio",
-          "summary": "EMA status: Authorised. MA date: 1999-09-02.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/arava"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-08-04",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Leflunomide medac (leflunomide) – Authorised",
-          "indication": "Leflunomide is indicated for the treatment of adult patients with:  active rheumatoid arthritis as a 'disease-modifying antirheumatic drug' (DMARD).  Recent or concurrent treatment with hepatotoxic or haematotoxic DMARDs (e.g. methotrexate) may result in an increased risk of serious adverse reactions, therefore, the initiation of leflunomide treatment has to be carefully considered regarding these benefit / risk aspects. Moreover, switching from leflunomide to another DMARD without following the washout procedure may also increase the risk of serious adverse reactions even for a long time afte",
-          "summary": "EMA status: Authorised. MA date: 2010-07-27.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/leflunomide-medac"
-        }
-      ]
-    },
-    {
       "id": "sub-single-stranded-5-capped-mrna-encoding-the-respiratory-syncytial-virus-glycoprotein-f-stabilised-in-the-prefusion-conformation",
       "drug_name": "mResvia",
       "active_substance": "Single-stranded 5' capped mRNA encoding the respiratory syncytial virus glycoprotein F stabilised in the prefusion conformation",
@@ -2752,50 +3788,6 @@
           "indication": "mResvia is indicated for active immunisation for the prevention of lower respiratory tract disease (LRTD) caused by Respiratory Syncytial Virus (RSV) in adults 18&nbsp;years of age and older. The use of this vaccine should be in accordance with official recommendations.",
           "summary": "EMA status: Authorised. MA date: 2024-08-22.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mresvia"
-        }
-      ]
-    },
-    {
-      "id": "sub-eculizumab",
-      "drug_name": "Soliris",
-      "active_substance": "Eculizumab",
-      "atc_code": "L04AA25",
-      "therapeutic_area": "Immunosuppressants",
-      "latest_date": "2026-11-16",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-16",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Soliris (Eculizumab) – Authorised",
-          "indication": "Soliris is indicated in adults and children for the treatment of:  Paroxysmal nocturnal haemoglobinuria (PNH).  Evidence of clinical benefit is demonstrated in patients with haemolysis with clinical symptom(s) indicative of high disease activity, regardless of transfusion history (see section 5.1).  &nbsp;Atypical haemolytic uremic syndrome (aHUS).  Soliris is indicated in adults for the treatment of:  Refractory generalized myasthenia gravis (gMG) in patients who are anti-acetylcholine receptor (AChR) antibody-positive (see section 5.1). Neuromyelitis optica spectrum disorder (NMOSD) in patie",
-          "summary": "EMA status: Authorised. MA date: 2007-06-20.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/soliris"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-15",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Bekemv (Eculizumab) – Authorised",
-          "indication": "Bekemv is indicated in adults and children for the treatment of paroxysmal nocturnal haemoglobinuria (PNH). Evidence of clinical benefit is demonstrated in patients with haemolysis with clinical symptom(s) indicative of high disease activity, regardless of transfusion history (see section 5.1).",
-          "summary": "EMA status: Authorised. MA date: 2023-04-19.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bekemv"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-08-07",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Epysqli (Eculizumab) – Authorised",
-          "indication": "Epysqli is indicated in adults and children for the treatment of:  Paroxysmal nocturnal haemoglobinuria (PNH).Evidence of clinical benefit is demonstrated in patients with haemolysis with clinical symptom(s) indicative of high disease activity, regardless of transfusion history. Atypical haemolytic uremic syndrome (aHUS).",
-          "summary": "EMA status: Authorised. MA date: 2023-05-26.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/epysqli"
         }
       ]
     },
@@ -2994,30 +3986,6 @@
           "indication": "Myelofibrosis (MF)&nbsp;   Ruxolitinib Viatris is indicated for the treatment of disease-related splenomegaly or symptoms in adult patients with primary myelofibrosis (also known as chronic idiopathic myelofibrosis), post polycythaemia vera myelofibrosis or post essential thrombocythaemia myelofibrosis.&nbsp; Polycythaemia vera (PV)&nbsp; Ruxolitinib Viatris is indicated for the treatment of adult patients with polycythaemia vera who are resistant to or intolerant of hydroxyurea.&nbsp; Graft versus host disease (GvHD)&nbsp;&nbsp; Acute GvHD&nbsp;Ruxolitinib Viatris is indicated for the treatme",
           "summary": "EMA status: Authorised. MA date: 2026-09-18.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ruxolitinib-viatris"
-        }
-      ]
-    },
-    {
-      "id": "sub-spesolimab",
-      "drug_name": "Spevigo",
-      "active_substance": "spesolimab",
-      "atc_code": "L04AC22",
-      "therapeutic_area": "Immunosuppressants",
-      "latest_date": "2026-11-13",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-13",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Spevigo (spesolimab) – Authorised",
-          "indication": "Spevigo is indicated for the prevention of generalised pustular psoriasis (GPP) flares in adults and adolescents from 12 years of age. Spevigo is indicated for the treatment of generalised pustular psoriasis (GPP) flares in adults and adolescents from 12 years of age as monotherapy.",
-          "summary": "EMA status: Authorised. MA date: 2022-12-09.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/spevigo"
         }
       ]
     },
@@ -4312,30 +5280,6 @@
       ]
     },
     {
-      "id": "sub-pemigatinib",
-      "drug_name": "Pemazyre",
-      "active_substance": "pemigatinib",
-      "atc_code": "L01EN02",
-      "therapeutic_area": "Antineoplastic agents",
-      "latest_date": "2026-11-10",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-10",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Pemazyre (pemigatinib) – Authorised",
-          "indication": "Pemazyre monotherapy is indicated for the treatment of adults with locally advanced or metastatic cholangiocarcinoma with a fibroblast growth factor receptor 2 (FGFR2) fusion or rearrangement that have progressed &nbsp;after at least one prior line of systemic therapy.",
-          "summary": "EMA status: Authorised. MA date: 2021-03-26.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/pemazyre"
-        }
-      ]
-    },
-    {
       "id": "sub-clascoterone",
       "drug_name": "Winlevi",
       "active_substance": "clascoterone",
@@ -4866,30 +5810,6 @@
           "indication": "Jascayd is indicated for the treatment of adult patients with Idiopathic Pulmonary Fibrosis (IPF). Jascayd is indicated for the treatment of adult patients with Progressive Pulmonary Fibrosis (PPF).",
           "summary": "EMA status: Authorised. MA date: 2026-07-15.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/jascayd"
-        }
-      ]
-    },
-    {
-      "id": "sub-formoterol-fumarate-dihydrate-glycopyrronium-bromide-budesonide",
-      "drug_name": "Trixeo Aerosphere",
-      "active_substance": "formoterol fumarate dihydrate;glycopyrronium bromide;budesonide",
-      "atc_code": "R03AL11",
-      "therapeutic_area": "Drugs for obstructive airway diseases",
-      "latest_date": "2026-11-09",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-09",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Trixeo Aerosphere (formoterol fumarate dihydrate;glycopyrronium bromide;budesonide) – Authorised",
-          "indication": "Trixeo Aerosphere is indicated as a maintenance treatment of asthma in patients 12 years of age and older who are not adequately controlled by a combination of a medium dose inhaled corticosteroid and a long-acting beta2-agonist.&nbsp;   Trixeo Aerosphere is indicated as a maintenance treatment in adult patients with moderate to severe chronic obstructive pulmonary disease (COPD) who are not adequately treated by a combination of an inhaled corticosteroid and a long acting beta2 agonist or combination of a long-acting beta2 agonist and a long acting muscarinic antagonist.&nbsp;",
-          "summary": "EMA status: Authorised. MA date: 2020-12-09.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/trixeo-aerosphere"
         }
       ]
     },
@@ -5770,340 +6690,6 @@
           "indication": "Treatment of a haemodynamically significant patent ductus arteriosus in preterm newborn infants less than 34 weeks of gestational age",
           "summary": "EMA status: Authorised. MA date: 2024-02-16.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vlustozik"
-        }
-      ]
-    },
-    {
-      "id": "sub-denosumab",
-      "drug_name": "Bildyos",
-      "active_substance": "denosumab",
-      "atc_code": "M05BX04",
-      "therapeutic_area": "Drugs for treatment of bone diseases",
-      "latest_date": "2026-11-03",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-03",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Bildyos (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. Inpostmenopausal women, denosumab significantly reduces the risk of vertebral, non-vertebral and hipfractures. Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased riskof fractures. In men with prostate cancer receiving hormone ablation, denosumabsignificantly reduces the risk of vertebral fractures. Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients atincreased risk of fracture.",
-          "summary": "EMA status: Authorised. MA date: 2025-09-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bildyos"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-29",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Jubereq (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.&nbsp;Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
-          "summary": "EMA status: Authorised. MA date: 2025-05-26.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/jubereq"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-28",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Yaxwer (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
-          "summary": "EMA status: Authorised. MA date: 2025-06-23.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yaxwer"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-23",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Prolia (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women Prolia significantly reduces the risk of vertebral, non vertebral and hip fractures. Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, Prolia significantly reduces the risk of vertebral fractures.",
-          "summary": "EMA status: Authorised. MA date: 2010-05-26.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/prolia"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-22",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Vevzuo (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1).Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
-          "summary": "EMA status: Authorised. MA date: 2025-06-25.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vevzuo"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-14",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Wyost (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (SREs) (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.&nbsp; Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
-          "summary": "EMA status: Authorised. MA date: 2024-05-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wyost"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-14",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Denosumab Ascend (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.&nbsp;",
-          "summary": "EMA status: Authorised. MA date: 2026-08-28.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/denosumab-ascend"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-10-01",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Degevma (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
-          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/degevma"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-30",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Denbrayce (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1).Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
-          "summary": "EMA status: Authorised. MA date: 2025-06-26.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/denbrayce"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-29",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Xbryk (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1). Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
-          "summary": "EMA status: Authorised. MA date: 2025-02-12.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xbryk"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-22",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Xbonzy (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
-          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xbonzy"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-21",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Osenvelt (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1).Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
-          "summary": "EMA status: Authorised. MA date: 2025-02-14.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/osenvelt"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-15",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Enwylma (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1).Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
-          "summary": "EMA status: Authorised. MA date: 2025-06-26.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/enwylma"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-11",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Bilprevda (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone.Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.&nbsp;",
-          "summary": "EMA status: Authorised. MA date: 2025-09-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bilprevda"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-01",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Zadenvi (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women, denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, ZADENVI significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see section 5",
-          "summary": "EMA status: Authorised. MA date: 2025-06-26.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zadenvi"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-08-24",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Izamby (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women, denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, Izamby significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see section 5.",
-          "summary": "EMA status: Authorised. MA date: 2025-06-26.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/izamby"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-08-24",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Bomyntra (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone. Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
-          "summary": "EMA status: Authorised. MA date: 2025-07-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bomyntra"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-08-20",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Junod (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women Junod significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, Junod significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see section 5.1).",
-          "summary": "EMA status: Authorised. MA date: 2025-06-23.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/junod"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-08-18",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Conexxence (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures. Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures. Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see sectio",
-          "summary": "EMA status: Authorised. MA date: 2025-07-18.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/conexxence"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-08-04",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Obodence (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures. Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures. Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see sectio",
-          "summary": "EMA status: Authorised. MA date: 2025-02-12.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/obodence"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-07-17",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Kefdensis (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women Kefdensis significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures&nbsp;(see section 5.1). In men with prostate cancer receiving hormone ablation, Kefdensis significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see sec",
-          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kefdensis"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-07-14",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Acvybra (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women Acvybra significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, Acvybra significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
-          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/acvybra"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-06-30",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Xgeva (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1). Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.&nbsp;&nbsp;",
-          "summary": "EMA status: Authorised. MA date: 2011-07-13.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xgeva"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-06-23",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Evfraxy (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women Evfraxy significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, Evfraxy significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see section 5.1)",
-          "summary": "EMA status: Authorised. MA date: 2025-06-30.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/evfraxy"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-05-22",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Osvyrti (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
-          "summary": "EMA status: Authorised. MA date: 2025-05-26.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/osvyrti"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-04-24",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Vysribli (previously Denosumab Intas) (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures. Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures (see section 5.1). In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures. Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture (see sectio",
-          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/vysribli"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-02-20",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Osqay (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
-          "summary": "EMA status: Authorised. MA date: 2026-01-08.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/osqay"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-01-20",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Ponlimsi (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women Ponlimsi significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, Ponlimsi significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
-          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ponlimsi"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-01-14",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Zvogra (denosumab) – Authorised",
-          "indication": "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression or surgery to bone) in adults with advanced malignancies involving bone (see section 5.1). Treatment of adults and skeletally mature adolescents with giant cell tumour of bone that is unresectable or where surgical resection is likely to result in severe morbidity.",
-          "summary": "EMA status: Authorised. MA date: 2025-11-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/zvogra"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-01-14",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Stoboclo (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
-          "summary": "EMA status: Authorised. MA date: 2025-02-14.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/stoboclo"
-        },
-        {
-          "source": "EMA",
-          "date": "2025-11-27",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Rolcya (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
-          "summary": "EMA status: Authorised. MA date: 2025-07-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rolcya"
-        },
-        {
-          "source": "EMA",
-          "date": "2025-11-27",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Jubbonti (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
-          "summary": "EMA status: Authorised. MA date: 2024-05-16.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/jubbonti"
         }
       ]
     },
@@ -8166,30 +8752,6 @@
       ]
     },
     {
-      "id": "sub-covid-19-vaccine",
-      "drug_name": "Bimervax",
-      "active_substance": "COVID-19 Vaccine (recombinant, adjuvanted)",
-      "atc_code": "J07BN",
-      "therapeutic_area": "Vaccines",
-      "latest_date": "2026-10-20",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-10-20",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Bimervax (COVID-19 Vaccine (recombinant, adjuvanted)) – Authorised",
-          "indication": "Bimervax is indicated as a booster for active immunisation to prevent COVID-19 in individuals 12 years of age and older who have previously received a mRNA COVID-19 vaccine (see sections 4.2 and 5.1). The use of this vaccine should be in accordance with official recommendations. Bimervax XBB.1.16 is indicated for active immunisation to prevent COVID-19 caused by SARS-CoV-2 in individuals 12 years of age and older. The use of this vaccine should be in accordance with official recommendations. Bimervax LP.8.1 is indicated for active immunisation to prevent COVID-19 caused by SARS CoV-2 in indivi",
-          "summary": "EMA status: Authorised. MA date: 2023-03-30.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bimervax"
-        }
-      ]
-    },
-    {
       "id": "sub-degarelix-acetate",
       "drug_name": "Degarelix Accord",
       "active_substance": "degarelix acetate",
@@ -9111,30 +9673,6 @@
       ]
     },
     {
-      "id": "sub-ocrelizumab",
-      "drug_name": "Ocrevus",
-      "active_substance": "ocrelizumab",
-      "atc_code": "L04AG08",
-      "therapeutic_area": "Immunosuppressants",
-      "latest_date": "2026-10-16",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-10-16",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Ocrevus (ocrelizumab) – Authorised",
-          "indication": "Treatment of adult patients with relapsing forms of multiple sclerosis (RMS) with active disease defined by clinical or imaging features. Treatment of adult patients with early primary progressive multiple sclerosis (PPMS) in terms of disease duration and level of disability, and with imaging features characteristic of inflammatory activity.",
-          "summary": "EMA status: Authorised. MA date: 2018-01-08.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ocrevus"
-        }
-      ]
-    },
-    {
       "id": "sub-anifrolumab",
       "drug_name": "Saphnelo",
       "active_substance": "anifrolumab",
@@ -9463,40 +10001,6 @@
           "indication": "HIV-1 infection Tenofovir disoproxil 245 mg film-coated tablets are indicated in combination with other antiretroviral medicinal products for the treatment of HIV-1 infected adults. In adults, the demonstration of the benefit of tenofovir disoproxil in HIV-1 infection is based on results of one study in treatment-naïve patients, including patients with a high viral load (&gt; 100,000 copies/ml) and studies in which tenofovir disoproxil was added to stable background therapy (mainly tritherapy) in antiretroviral pre-treated patients experiencing early virological failure (&lt; 10,000 copies/ml,",
           "summary": "EMA status: Authorised. MA date: 2016-12-08.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/tenofovir-disoproxil-viatris"
-        }
-      ]
-    },
-    {
-      "id": "sub-pertuzumab",
-      "drug_name": "Poherdy",
-      "active_substance": "pertuzumab",
-      "atc_code": "L01FD02",
-      "therapeutic_area": "Antineoplastic agents",
-      "latest_date": "2026-10-14",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-10-14",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Poherdy (pertuzumab) – Authorised",
-          "indication": "Early breast cancerPoherdy is indicated for use in combination with trastuzumab and chemotherapy in:- the neoadjuvant treatment of adult patients with HER2-positive, locally advanced, inflammatory, or early stage breast cancer at high risk of recurrence- the adjuvant treatment of adult patients with HER2-positive early breast cancer at high risk of recurrenceMetastatic breast cancerPoherdy is indicated for use in combination with trastuzumab and docetaxel in adult patients with HER2-positive metastatic or locally recurrent unresectable breast cancer, who have not received previous anti-HER2 th",
-          "summary": "EMA status: Authorised. MA date: 2026-04-23.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/poherdy"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-09-09",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Perjeta (pertuzumab) – Authorised",
-          "indication": "Metastatic Breast Cancer: Perjeta is indicated for use in combination with trastuzumab and docetaxel in adult patients with HER2-positive metastatic or locally recurrent unresectable breast cancer, who have not received previous anti-HER2 therapy or chemotherapy for their metastatic disease. Neoadjuvant Treatment of Breast Cancer: Perjeta is indicated for use in combination with trastuzumab and chemotherapy for the neoadjuvant treatment of adult patients with HER2-positive, locally advanced, inflammatory, or early stage breast cancer at high risk of recurrence.",
-          "summary": "EMA status: Authorised. MA date: 2013-03-04.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/perjeta"
         }
       ]
     },
@@ -10906,30 +11410,6 @@
       ]
     },
     {
-      "id": "sub-relugolix",
-      "drug_name": "Orgovyx",
-      "active_substance": "relugolix",
-      "atc_code": "L02BX",
-      "therapeutic_area": "Endocrine therapy",
-      "latest_date": "2026-10-02",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-10-02",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Orgovyx (relugolix) – Authorised",
-          "indication": "Orgovyx is indicated for the treatment of adult patients with advanced hormone-sensitive prostate cancer.",
-          "summary": "EMA status: Authorised. MA date: 2022-04-29.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/orgovyx"
-        }
-      ]
-    },
-    {
       "id": "sub-aliskiren",
       "drug_name": "Rasilez",
       "active_substance": "aliskiren",
@@ -11106,64 +11586,6 @@
           "indication": "For the treatment of adults and children with diabetes mellitus who require insulin for the maintenance of normal glucose homeostasis. Liprolog is also indicated for the initial stabilisation of diabetes mellitus.",
           "summary": "EMA status: Authorised. MA date: 2001-08-01.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/liprolog"
-        }
-      ]
-    },
-    {
-      "id": "sub-budesonide-formoterol-fumarate-dihydrate-glycopyrronium-bromide",
-      "drug_name": "Riltrava Aerosphere",
-      "active_substance": "budesonide;formoterol fumarate dihydrate;glycopyrronium bromide",
-      "atc_code": "R03AL11",
-      "therapeutic_area": "Drugs for obstructive airway diseases",
-      "latest_date": "2026-10-02",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-10-02",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Riltrava Aerosphere (budesonide;formoterol fumarate dihydrate;glycopyrronium bromide) – Authorised",
-          "indication": "Riltrava Aerosphere is indicated as a maintenance treatment of asthma in patients 12 years of age and older who are not adequately controlled by a combination of a medium dose inhaled corticosteroid and a long acting beta2 agonist. Riltrava Aerosphere is indicated as a maintenance treatment in adult patients with moderate to severe chronic obstructive pulmonary disease (COPD) who are not adequately treated by a combination of an inhaled corticosteroid and a long acting beta2 agonist or combination of a long-acting beta2 agonist and a long acting muscarinic antagonist.&nbsp;",
-          "summary": "EMA status: Authorised. MA date: 2022-01-06.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/riltrava-aerosphere"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-07-23",
-          "update_type": "new_indication",
-          "status": "Positive",
-          "title": "Riltrava Aerosphere (budesonide;formoterol fumarate dihydrate;glycopyrronium bromide) – Positive",
-          "indication": "Pulmonary Disease, Chronic Obstructive",
-          "summary": "EMA post-authorisation (Positive).",
-          "url": "https://www.ema.europa.eu/en/medicines/human/variation/riltrava-aerosphere"
-        }
-      ]
-    },
-    {
-      "id": "sub-tabelecleucel",
-      "drug_name": "Ebvallo",
-      "active_substance": "tabelecleucel",
-      "atc_code": "",
-      "therapeutic_area": "Lymphoproliferative Disorders",
-      "latest_date": "2026-10-02",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-10-02",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Ebvallo (tabelecleucel) – Authorised",
-          "indication": "Ebvallo is indicated as monotherapy for treatment of adult and paediatric patients 2 years of age and older with relapsed or refractory Epstein-Barr virus positive post-transplant lymphoproliferative disease (EBV+ PTLD) who have received at least one prior therapy. For solid organ transplant patients, prior therapy includes chemotherapy unless chemotherapy is inappropriate.",
-          "summary": "EMA status: Authorised. MA date: 2022-12-16.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ebvallo"
         }
       ]
     },
@@ -11440,30 +11862,6 @@
           "indication": "Breast Neoplasms",
           "summary": "EMA post-authorisation (Positive).",
           "url": "https://www.ema.europa.eu/en/medicines/human/variation/datroway"
-        }
-      ]
-    },
-    {
-      "id": "sub-crizotinib",
-      "drug_name": "Xalkori",
-      "active_substance": "crizotinib",
-      "atc_code": "L01ED01",
-      "therapeutic_area": "Antineoplastic agents",
-      "latest_date": "2026-09-30",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-09-30",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Xalkori (crizotinib) – Authorised",
-          "indication": "Xalkori as monotherapy is indicated for:  The first line treatment of adults with anaplastic lymphoma kinase (ALK) positive advanced non small cell lung cancer (NSCLC) The treatment of adults with previously treated anaplastic lymphoma kinase (ALK) positive advanced non small cell lung cancer (NSCLC) The treatment of adults with ROS1 positive advanced non small cell lung cancer (NSCLC) The treatment of paediatric patients (age 1 to &lt;18 years) with relapsed or refractory systemic anaplastic lymphoma kinase (ALK) positive anaplastic large cell lymphoma (ALCL) The treatment of paediatric patie",
-          "summary": "EMA status: Authorised. MA date: 2012-10-23.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xalkori"
         }
       ]
     },
@@ -12433,30 +12831,6 @@
           "indication": "Zensiv sluten 1-dels är endelsbandage med en plan hudskyddsplatta, avsedda för stomiopererade personer. Produkten tillhandahålls i ett antal olika varianter med olika funktioner och egenskaper, exempelvis extra tunn, med luftningsventil eller med extra häftkant. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 29 september 2026.",
           "summary": "Zensiv sluten 1-dels är endelsbandage med en plan hudskyddsplatta, avsedda för stomiopererade personer. Produkten tillhandahålls i ett antal olika varianter med olika funktioner och egenskaper, exempelvis extra tunn, med luftningsventil eller med extra häftkant. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 29 september 2026.",
           "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-09-17-zensiv-sluten-1-dels-ultra-light-med-luftningsventil-zensiv-sluten-1-dels-ultra-light-zensiv-sluten-1-dels-med-luftningsventil-zensiv-sluten-1-dels-extra-haftkant-och-zensiv-sluten-1-dels-extra-haftkant-med-luftningsventil-ingar-i-hogkostnadsskyddet.html"
-        }
-      ]
-    },
-    {
-      "id": "sub-mifamurtide",
-      "drug_name": "Mepact",
-      "active_substance": "mifamurtide",
-      "atc_code": "L03AX15",
-      "therapeutic_area": "Immunostimulants",
-      "latest_date": "2026-09-16",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-09-16",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Mepact (mifamurtide) – Authorised",
-          "indication": "Mepact is indicated in children, adolescents and young adults for the treatment of high-grade resectable non-metastatic osteosarcoma after macroscopically complete surgical resection. It is used in combination with postoperative multi-agent chemotherapy. Safety and efficacy have been assessed in studies of patients two to 30 years of age at initial diagnosis.",
-          "summary": "EMA status: Authorised. MA date: 2009-03-06.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mepact"
         }
       ]
     },
@@ -18207,40 +18581,6 @@
       ]
     },
     {
-      "id": "sub-posaconazole",
-      "drug_name": "Noxafil",
-      "active_substance": "posaconazole",
-      "atc_code": "J02AC04",
-      "therapeutic_area": "Triazole and triazole derivatives",
-      "latest_date": "2026-07-01",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-07-01",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Noxafil (posaconazole) – Authorised",
-          "indication": "Noxafil concentrate for solution for infusion is indicated for use in the treatment of the following invasive fungal infections in adult and paediatric patients from 2 years of age:&nbsp;  Invasive aspergillosis&nbsp; Fusariosis in patients with disease that is refractory to amphotericin B or in patients who are intolerant of amphotericin B;  Chromoblastomycosis and mycetoma in patients with disease that is refractory to itraconazole or in patients who are intolerant of itraconazole;  Coccidioidomycosis in patients with disease that is refractory to amphotericin B, itraconazole or fluconazole ",
-          "summary": "EMA status: Authorised. MA date: 2005-10-25.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/noxafil"
-        },
-        {
-          "source": "EMA",
-          "date": "2026-06-12",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Posaconazole Accord (posaconazole) – Authorised",
-          "indication": "Posaconazole Accord is indicated for use in the treatment of the following fungal infections in adults:  Invasive aspergillosis; Fusariosis in patients with disease that is refractory to amphotericin B or in patients who are intolerant of amphotericin B; Chromoblastomycosis and mycetoma in patients with disease that is refractory to itraconazole or in patients who are intolerant of itraconazole; Coccidioidomycosis in patients with disease that is refractory to amphotericin B, itraconazole or fluconazole or in patients who are intolerant of these medicinal products.  Refractoriness is defined a",
-          "summary": "EMA status: Authorised. MA date: 2019-07-25.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/posaconazole-accord"
-        }
-      ]
-    },
-    {
       "id": "sub-etanercept",
       "drug_name": "Erelzi",
       "active_substance": "etanercept",
@@ -19270,30 +19610,6 @@
           "indication": "Treatment of essential hypertension. Amlodipine/Valsartan Mylan is indicated in adults whose blood pressure is not adequately controlled on amlodipine or valsartan monotherapy.",
           "summary": "EMA status: Authorised. MA date: 2016-03-22.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/amlodipine-valsartan-mylan"
-        }
-      ]
-    },
-    {
-      "id": "sub-fingolimod",
-      "drug_name": "Fingolimod Mylan",
-      "active_substance": "Fingolimod",
-      "atc_code": "L04AE01",
-      "therapeutic_area": "Immunosuppressants",
-      "latest_date": "2026-06-12",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-06-12",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Fingolimod Mylan (Fingolimod) – Authorised",
-          "indication": "Indicated as single disease modifying therapy in highly active relapsing remitting multiple sclerosis for the following groups of adult and paediatric patients aged 10 years and older: Patients with highly active disease despite a full and adequate course of treatment with at least one disease modifying therapy (for exceptions and information about washout periods see sections 4.4 and 5.1) or Patients with rapidly evolving severe relapsing remitting multiple sclerosis defined by 2 or more disabling relapses in one year, and with 1 or more Gadolinium enhancing lesions on brain MRI or a signific",
-          "summary": "EMA status: Authorised. MA date: 2021-08-18.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/fingolimod-mylan"
         }
       ]
     },
@@ -23048,30 +23364,6 @@
       ]
     },
     {
-      "id": "sub-fluciclovine",
-      "drug_name": "Axumin",
-      "active_substance": "fluciclovine (18F)",
-      "atc_code": "V09IX12",
-      "therapeutic_area": "Diagnostic radiopharmaceuticals",
-      "latest_date": "2026-03-26",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-03-26",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Axumin (fluciclovine (18F)) – Authorised",
-          "indication": "This medicinal product is for diagnostic use only. Axumin is indicated for Positron Emission Tomography (PET) imaging to detect recurrence of prostate cancer in adult men with a suspected recurrence based on elevated blood prostate specific antigen (PSA) levels after primary curative treatment.",
-          "summary": "EMA status: Authorised. MA date: 2017-05-21.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/axumin"
-        }
-      ]
-    },
-    {
       "id": "sub-teprotumumab",
       "drug_name": "Tepezza",
       "active_substance": "teprotumumab",
@@ -23438,30 +23730,6 @@
           "indication": "Hodgkin lymphomaAdcetris is indicated for adult patients with previously untreated CD30+ Stage IV Hodgkin lymphoma (HL) in combination with doxorubicin, vinblastine and dacarbazine (AVD).Adcetris is indicated for adult patients with previously untreated CD30+ Stage IIB with risk factors, Stage III or Stage IV HL in combination with etoposide, cyclophosphamide, doxorubicin, dacarbazine, dexamethasone (BrECADD).Adcetris is indicated for the treatment of adult patients with CD30+ HL at increased risk of relapse or progression following autologous stem cell transplant (ASCT).Adcetris is indicated ",
           "summary": "EMA status: Authorised. MA date: 2012-10-25.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/adcetris"
-        }
-      ]
-    },
-    {
-      "id": "sub-sulphur-hexafluoride",
-      "drug_name": "SonoVue",
-      "active_substance": "sulphur hexafluoride",
-      "atc_code": "V08DA05",
-      "therapeutic_area": "Contrast media",
-      "latest_date": "2026-03-20",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-03-20",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "SonoVue (sulphur hexafluoride) – Authorised",
-          "indication": "This medicinal product is for diagnostic use only. SonoVue is for use with ultrasound imaging to enhance the echogenicity of the blood, or of fluids in the urinary tract which results in an improved signal to noise ratio. SonoVue should only be used in patients where study without contrast enhancement is inconclusive. Echocardiography SonoVue is a transpulmonary echocardiographic contrast agent for use in adult patients with suspected or established cardiovascular disease to provide opacification of cardiac chambers and enhance left ventricular endocardial border delineation. Doppler of macrov",
-          "summary": "EMA status: Authorised. MA date: 2001-03-26.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/sonovue"
         }
       ]
     },
