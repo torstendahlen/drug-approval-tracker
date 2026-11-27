@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T01:59:09Z",
+  "generated_at": "2026-11-27T17:01:16Z",
   "counts": {
     "total": 977,
     "ema": 802,
@@ -7,6 +7,40 @@
     "nt_radet": 50
   },
   "drugs": [
+    {
+      "id": "name-nordicmed",
+      "drug_name": "NordicMed",
+      "active_substance": "",
+      "atc_code": "",
+      "therapeutic_area": "Other / Unclassified",
+      "latest_date": "2026-11-27",
+      "latest_update_type": "other",
+      "sources_present": [
+        "TLV"
+      ],
+      "events": [
+        {
+          "source": "TLV",
+          "date": "2026-11-27",
+          "update_type": "other",
+          "status": "TLV Beslut",
+          "title": "NordicMed Pennkanyl ingår i högkostnadsskyddet",
+          "indication": "NordicMed Pennkanyl är pennkanyler för engångsbruk avsedda att användas tillsammans med en injektionspenna för att tillföra kroppen läkemedel genom injektion. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 december 2026.",
+          "summary": "NordicMed Pennkanyl är pennkanyler för engångsbruk avsedda att användas tillsammans med en injektionspenna för att tillföra kroppen läkemedel genom injektion. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 december 2026.",
+          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-11-27-nordicmed-pennkanyl-ingar-i-hogkostnadsskyddet.html"
+        },
+        {
+          "source": "TLV",
+          "date": "2026-11-24",
+          "update_type": "other",
+          "status": "TLV Beslut",
+          "title": "NordicMed Blodlancett ingår i högkostnadsskyddet",
+          "indication": "NordicMed Blodlancett är sterila lansetter avsedda för engångsbruk tillsammans med en blodprovstagare. Lansetter används för att göra ett ytligt stick i huden, oftast i fingret, för att samla in en liten droppe blod. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 december 2026.",
+          "summary": "NordicMed Blodlancett är sterila lansetter avsedda för engångsbruk tillsammans med en blodprovstagare. Lansetter används för att göra ett ytligt stick i huden, oftast i fingret, för att samla in en liten droppe blod. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 december 2026.",
+          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-11-24-nordicmed-blodlancett-ingar-i-hogkostnadsskyddet.html"
+        }
+      ]
+    },
     {
       "id": "sub-pegfilgrastim",
       "drug_name": "Nylaspeg",
@@ -2351,30 +2385,6 @@
           "indication": "Epsolay (benzoylperoxid) som används för att behandla rosacea ingår i högkostnadsskyddet med begränsad subvention. Begränsningen innebär att Epsolay endast subventioneras när svar på tidigare behandling med azelainsyra bedömts vara kliniskt otillräckligt. Beslutet gäller från och med den 24 november 2026.",
           "summary": "Epsolay (benzoylperoxid) som används för att behandla rosacea ingår i högkostnadsskyddet med begränsad subvention. Begränsningen innebär att Epsolay endast subventioneras när svar på tidigare behandling med azelainsyra bedömts vara kliniskt otillräckligt. Beslutet gäller från och med den 24 november 2026.",
           "url": "https://www.tlv.se/beslut/beslut-lakemedel/begransad-subvention/arkiv/2026-11-24-epsolay-ingar-i-hogkostnadsskyddet-med-begransning.html"
-        }
-      ]
-    },
-    {
-      "id": "name-nordicmed",
-      "drug_name": "NordicMed",
-      "active_substance": "",
-      "atc_code": "",
-      "therapeutic_area": "Other / Unclassified",
-      "latest_date": "2026-11-24",
-      "latest_update_type": "other",
-      "sources_present": [
-        "TLV"
-      ],
-      "events": [
-        {
-          "source": "TLV",
-          "date": "2026-11-24",
-          "update_type": "other",
-          "status": "TLV Beslut",
-          "title": "NordicMed Blodlancett ingår i högkostnadsskyddet",
-          "indication": "NordicMed Blodlancett är sterila lansetter avsedda för engångsbruk tillsammans med en blodprovstagare. Lansetter används för att göra ett ytligt stick i huden, oftast i fingret, för att samla in en liten droppe blod. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 december 2026.",
-          "summary": "NordicMed Blodlancett är sterila lansetter avsedda för engångsbruk tillsammans med en blodprovstagare. Lansetter används för att göra ett ytligt stick i huden, oftast i fingret, för att samla in en liten droppe blod. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 december 2026.",
-          "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-11-24-nordicmed-blodlancett-ingar-i-hogkostnadsskyddet.html"
         }
       ]
     },
