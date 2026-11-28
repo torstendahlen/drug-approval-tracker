@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T17:01:16Z",
+  "generated_at": "2026-11-28T01:42:54Z",
   "counts": {
     "total": 977,
     "ema": 802,
@@ -38,6 +38,40 @@
           "indication": "NordicMed Blodlancett är sterila lansetter avsedda för engångsbruk tillsammans med en blodprovstagare. Lansetter används för att göra ett ytligt stick i huden, oftast i fingret, för att samla in en liten droppe blod. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 december 2026.",
           "summary": "NordicMed Blodlancett är sterila lansetter avsedda för engångsbruk tillsammans med en blodprovstagare. Lansetter används för att göra ett ytligt stick i huden, oftast i fingret, för att samla in en liten droppe blod. TLV bedömer att förutsättningarna för att ingå i högkostnadsskyddet är uppfyllda. Beslutet gäller från och med den 7 december 2026.",
           "url": "https://www.tlv.se/beslut/beslut-forbrukningsartiklar/generell-subvention/arkiv/2026-11-24-nordicmed-blodlancett-ingar-i-hogkostnadsskyddet.html"
+        }
+      ]
+    },
+    {
+      "id": "sub-vedolizumab",
+      "drug_name": "Entyvio",
+      "active_substance": "vedolizumab",
+      "atc_code": "",
+      "therapeutic_area": "Immunosuppressants;Monoclonal antibodies",
+      "latest_date": "2026-11-27",
+      "latest_update_type": "new_indication",
+      "sources_present": [
+        "EMA"
+      ],
+      "events": [
+        {
+          "source": "EMA",
+          "date": "2026-11-27",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Entyvio (vedolizumab) – Authorised",
+          "indication": "Ulcerative colitis Entyvio is indicated for the treatment of adult patients with moderately to severely active ulcerative colitis who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a tumour necrosis factor alpha (TNF?) antagonist. Crohn’s disease Entyvio is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a tumour necrosis factor alpha (TNF?) antagonist. Pouchitis Entyvio is",
+          "summary": "EMA status: Authorised. MA date: 2014-05-22.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/entyvio"
+        },
+        {
+          "source": "EMA",
+          "date": "2026-11-06",
+          "update_type": "new_indication",
+          "status": "Authorised",
+          "title": "Entyvio (vedolizumab) – Authorised",
+          "indication": "Ulcerative colitis Entyvio is indicated for the treatment of adult patients with moderately to severely active ulcerative colitis who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a tumour necrosis factor alpha (TNF?) antagonist. Crohn’s disease Entyvio is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a tumour necrosis factor alpha (TNF?) antagonist. Pouchitis Entyvio is",
+          "summary": "EMA status: Authorised. MA date: 2014-05-22.",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/entyvio"
         }
       ]
     },
@@ -944,26 +978,6 @@
           "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
           "summary": "EMA status: Authorised. MA date: 2025-02-14.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/stoboclo"
-        },
-        {
-          "source": "EMA",
-          "date": "2025-11-27",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Rolcya (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
-          "summary": "EMA status: Authorised. MA date: 2025-07-17.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rolcya"
-        },
-        {
-          "source": "EMA",
-          "date": "2025-11-27",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Jubbonti (denosumab) – Authorised",
-          "indication": "Treatment of osteoporosis in postmenopausal women and in men at increased risk of fractures. In postmenopausal women denosumab significantly reduces the risk of vertebral, non-vertebral and hip fractures.Treatment of bone loss associated with hormone ablation in men with prostate cancer at increased risk of fractures. In men with prostate cancer receiving hormone ablation, denosumab significantly reduces the risk of vertebral fractures.Treatment of bone loss associated with long-term systemic glucocorticoid therapy in adult patients at increased risk of fracture.",
-          "summary": "EMA status: Authorised. MA date: 2024-05-16.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/jubbonti"
         }
       ]
     },
@@ -6162,30 +6176,6 @@
           "indication": "Bylvay is indicated for the treatment of progressive familial intrahepatic cholestasis (PFIC) in patients aged 6 months or older (see sections 4.4 and 5.1).",
           "summary": "EMA status: Authorised. MA date: 2021-07-16.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/bylvay"
-        }
-      ]
-    },
-    {
-      "id": "sub-vedolizumab",
-      "drug_name": "Entyvio",
-      "active_substance": "vedolizumab",
-      "atc_code": "",
-      "therapeutic_area": "Immunosuppressants;Monoclonal antibodies",
-      "latest_date": "2026-11-06",
-      "latest_update_type": "new_indication",
-      "sources_present": [
-        "EMA"
-      ],
-      "events": [
-        {
-          "source": "EMA",
-          "date": "2026-11-06",
-          "update_type": "new_indication",
-          "status": "Authorised",
-          "title": "Entyvio (vedolizumab) – Authorised",
-          "indication": "Ulcerative colitis Entyvio is indicated for the treatment of adult patients with moderately to severely active ulcerative colitis who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a tumour necrosis factor alpha (TNF?) antagonist. Crohn’s disease Entyvio is indicated for the treatment of adult patients with moderately to severely active Crohn’s disease who have had an inadequate response with, lost response to, or were intolerant to either conventional therapy or a tumour necrosis factor alpha (TNF?) antagonist. Pouchitis Entyvio is",
-          "summary": "EMA status: Authorised. MA date: 2014-05-22.",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/entyvio"
         }
       ]
     },
@@ -15572,16 +15562,6 @@
           "indication": "Brilique, co administered with acetylsalicylic acid (ASA), is indicated for the prevention of atherothrombotic events in adult patients with  acute coronary syndromes (ACS) or a history of myocardial infarction (MI) and a high risk of developing an atherothrombotic event  Brilique, co-administered with acetyl salicylic acid (ASA), is indicated for the prevention of atherothrombotic events in adult patients with a history of myocardial infarction (MI occurred at least one year ago) and a high risk of developing an atherothrombotic event.",
           "summary": "EMA status: Authorised. MA date: 2010-12-03.",
           "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/brilique"
-        },
-        {
-          "source": "EMA",
-          "date": "2025-11-27",
-          "update_type": "new_indication",
-          "status": "Application withdrawn",
-          "title": "Brilique (ticagrelor) – Application withdrawn",
-          "indication": "Peripheral Vascular Diseases;Acute Coronary Syndrome",
-          "summary": "EMA post-authorisation (Application withdrawn).",
-          "url": "https://www.ema.europa.eu/en/medicines/human/variation/brilique-0"
         }
       ]
     },
